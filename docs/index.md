@@ -1,4 +1,5 @@
-# MEGR 2157 – Design Portfolio
+Michael Sweeney — MEGR 2157 Portfolio
+
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
 
