@@ -68,7 +68,7 @@ The wrench is manufactured as one continuous component. The long handle on this 
 
 **Inventor:** Linn A. Waynick
 
-![Patent drawing showing wrench geometry](Patent_Photo.PNG)
+![Patent drawing showing wrench geometry](Patent_Photo.png)
 **Alternative Solutions:**
 1. Socket Wrench with ratchet
 2. Adjustable Wrench
