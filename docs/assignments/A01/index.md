@@ -59,7 +59,7 @@ The wrench is assumed to behave as a single rigid body this means deformation of
 
 #### Component and Geometry
 
-![Husky 1/2-Inch Combination Wrench](Wrench_Photo.jpg)
+![Husky 1/2-Inch Combination Wrench](Wrench_Photo.jpeg)
 The wrench is manufactured as one continuous component. The long handle on this wrench increases the distance between the rotational axis of the fastener and the applied hand force allowing greater torque to be created for an applied force. This wrench has 2 different ends on it allowing it to be used for different applications. On one side, you have a 12-point box end, and on the other side you have an open end. The closed 12-point geometry allows the wrench to engage the fastener from all sides while allowing also allowing engagement from multiple angles. The open-end side allows engagement with the fasteners from the side. Neither side can be used in every situation so putting these 2 on the same tool increases the number of applications in which this wrench can be used.
 
 #### Patent Research 
