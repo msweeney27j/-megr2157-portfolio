@@ -3,7 +3,7 @@ Michael Sweeney — MEGR 2157 Portfolio
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
 
-This site is the working record of your engineering design decisions across MEGR 2157. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what you built, but how and why you built it that way. Engineering documentation is a skill developed through deliberate practice. Each assignment is an opportunity to improve the precision, clarity, and professional quality of how you record and defend your work. As you progress through the semester your engineering capability will grow alongside your documentation — this portfolio is the record of that journey.
+This site is a live record of Michael Sweeney's Engineering design decisions during MEGR 2157. Every entry will follow the Analyze, Decide, communicate structure following standard engineering documentation structuring practiecs. As I progress through the semester my engineering capability will grow alongside my documentation.
 
 > **Engineering is the art of making decisions you can defend.**
 
