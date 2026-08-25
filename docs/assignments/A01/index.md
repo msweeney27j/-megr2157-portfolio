@@ -68,6 +68,7 @@ The wrench is manufactured as one continuous component. The long handle on this 
 
 **Inventor:** Linn A. Waynick
 
+![Patent drawing showing wrench geometry](Patent_Photo.PNG)
 **Alternative Solutions:**
 1. Socket Wrench with ratchet
 2. Adjustable Wrench
@@ -76,6 +77,14 @@ The wrench is manufactured as one continuous component. The long handle on this 
 The design of this wrench is important in maximizing its applications. The handle is sized so that it can be comfortably held by the user's hand while providing enough length to create a mechanical advantage. The closed box end also creates an opening that can be used for storage. One of the most important design decisions was that the open end is angled relative to the handle. I believe this angle was chosen specifically to allow the wrench to be used in confined places. This is because when working in tight spaces the user cannot rotate the wrench at a large angle and has to be repositioned constantly for smaller turns. The angle of the open end relative to the handle can also be seen in the patent schematics. This increases the number of situations in which this wrench can effectively engage fasteners.   
 ## Decide
 
+### Homepage Identity
+I chose to keep the homepage simple and focused on explaining the purpose and organization of my engineering portfolio. The home page clearly states that I will be using the Analyze, Decide and Communicate structure. Below this I have a brief description of each part of the process for a quick refresher for the user and to show what those principles mean to me.  
+
+### Intentional Customization 
+I changed the introductory paragraph on the homepage to give a more personalized description of my portfolio. It defines who's work it is as well as it being a work in progress following me throughout the semester. I also note that my work will continue to develop throughout the semester. 
+
+### Documentation 
+My documentation standard will be to show not only the engineering decisions I made, but also the reasoning and evidence that led me to make these decisions.
 
 ## Communicate
 
