@@ -18,8 +18,8 @@ The creator provides some evidence of engineering reasoning. The creator provide
 **Professional Tone** 
 This creator maintains a professional tone throughout the portfolio buy using the correct and current application, equipment, and manufacturing processes names. For Example, the projects reference CAD, 3D Printing, CNC Milling, and the specific manufacturing equipment that was used. However, after rereading I did notice some grammatical errors as well as spelling errors that need to be cleaned up in order to keep the professional tone throughout.
 
-Portfolio 2: [Alexander Brush](https://alexanderbrush.com/)
-
+## Portfolio 2: [Alexander Brush](https://alexanderbrush.com/)
+**Navigability**
 
 ## Decide
 
