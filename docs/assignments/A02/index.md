@@ -4,10 +4,26 @@
 
 
 ## Analyze
-
+### Truss Geometry and Design Constraints
+### Truss Free-Body Diagram
+### Joint Free-Body Diagrams
+### Internal Force Analysis
+### Member Cross-Section Analysis
+### Truss weight analysis
+### Pin Analysis
 
 ## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
-
+### Truss Geometry Selection
+### Member Cross-Section Selection
+### Pin Size Selection
 ## Communicate
-
+### CAD Model
+### Mass Properties and Weight Comparison
+### Engineering Lessons Learned 
+### Time Spent
+### CAD Files
+## MEGR 2157 - Failure Mode Analysis
+### Truss Member Failure Modes
+### Pin Connection Failure Mode
+### Sources
+### AI Use
