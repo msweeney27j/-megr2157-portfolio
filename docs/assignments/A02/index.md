@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-
+The Objective for this assignment is to design a lightweight planar truss that supports the load and meets the specific geometric and material constraints. This design will use static equilibrium analysis to determine the internal forces in each truss member then stress analysis will be used to determine the required pin and member sizes using the factor of safety. After that, a CAD model will be created to verify the geometry and compare the predicted weight to the calculated weight. 
 
 ## Analyze
 ### Truss Geometry and Design Constraints
