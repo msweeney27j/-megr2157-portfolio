@@ -23,10 +23,13 @@ The connecting pins were designed for single shear using the largest joint react
 The final truss geometry was selected using a simple trapezoid using points A, B, C, and D with diagonal member AC. This layout was chosen because it satisfies the given constraints with keeping the number of members low which in return is keeping the weight down. Adding member AC stabilizes the four-sided frame by divinding it into 2 triangles without adding unnecessary members.  
 ### Member Cross-Section Selection
 The minimum required cross-sectional area was calculated to be approximately 378mm^2. A 20mm x 20mm square cross section was selected for the final design, giving an actual area of 400mm^2. This size exceeds the calculated minimum, satisfies the required factor of safety, and provides uniform geometry that can be consistently modeled in SolidWorks. 
-### Pin Size Selec
+### Pin Size Selection
+The minimum calculated pin diameter was 9.32mm based on the critical single-shear load at joint C. A 10 mm diameter pin was selected to provide a practical size that exceeds the calculated minimum while maintaining the required factor of safety. All four pins were modeled with the same diameter and a length of 20 mm to maintain consistency throughout the design.
 ## Communicate
 ### CAD Model
+A 3D CAD model of the truss was created in solid works using the final geometry and dimensions from hand calculations. The truss modeled as a single part with all members using the 20mm x 20mm cross sectional area and the 4 pin locations were included at joints A, B, C, and D. The pins were modeled separately as 10mm diameter cylinders with a length of 20mm to match the calculated design.  
 ### Mass Properties and Weight Comparison
+The solid works mass properties tool was used to determine the predicted mass of the completed truss and pins. The truss model has a mass of 11.492kg which corresponds to a weight of 112.7N. Each pin had a mass of approximately 12.35g making the combined pin weight 49.4g for all 4 pins. The hand calcul
 ### Engineering Lessons Learned 
 ### Time Spent
 ### CAD Files
