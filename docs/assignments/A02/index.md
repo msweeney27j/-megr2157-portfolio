@@ -20,7 +20,9 @@ The approximate weight was calculated using the 400mm^2 cross-sectional area, th
 The connecting pins were designed for single shear using the largest joint reaction load in the truss. Joint C was selected as the critical pin location with a resultant sheer force of 20kn. A safety factor of 4 was applied with the specific hardened tool steel shear yield strength of 170ksi to determine the minimum required pin area and diameter. The minimum area was calculated to be 68.45mm^2 and the diameter 9.32mm. A practical pin of 10mm diameter was chosen, giving an actual area of 78.54mm^2, which exceeds the calculated minimum. Four identical pins were used for this design, each modeled at a length of 20mm.
 ## Decide
 ### Truss Geometry Selection
+The final truss geometry was selected using a simple trapezoid using points A, B, C, and D with diagonal member AC. This layout was chosen because it satisfies the given constraints with keeping the number of members low which in return is keeping the weight down. Adding member AC stabilizes the four-sided frame by divinding it into 2 triangles without adding unnecessary members.  
 ### Member Cross-Section Selection
+The minimum required cross-sectional area was calculated to be approximately 378mm^2. A 20mm x 20mm square cross section was selected for the final design, giving an actual area of 400mm^2. This size exceeds the calculated minimum, satisfies the required factor of safety, and provides uniform geometry that can be consistently modeled in SolidWorks. 
 ### Pin Size Selec
 ## Communicate
 ### CAD Model
