@@ -29,12 +29,19 @@ The minimum calculated pin diameter was 9.32mm based on the critical single-shea
 ### CAD Model
 A 3D CAD model of the truss was created in solid works using the final geometry and dimensions from hand calculations. The truss modeled as a single part with all members using the 20mm x 20mm cross sectional area and the 4 pin locations were included at joints A, B, C, and D. The pins were modeled separately as 10mm diameter cylinders with a length of 20mm to match the calculated design.  
 ### Mass Properties and Weight Comparison
-The solid works mass properties tool was used to determine the predicted mass of the completed truss and pins. The truss model has a mass of 11.492kg which corresponds to a weight of 112.7N. Each pin had a mass of approximately 12.35g making the combined pin weight 49.4g for all 4 pins. The hand calcul
+The solid works mass properties tool was used to determine the predicted mass of the completed truss and pins. The truss model has a mass of 11.492kg which corresponds to a weight of 112.7N. Each pin had a mass of approximately 12.35g making the combined pin weight 49.4g for all 4 pins. The hand calculated truss weight was approximate 107N, while the solid works predicted the weight to be 112.7N. The CAD result is slightly higher because the model includes additional material around the joint regions that was not represented in the hand calculations. This comparison shows the how a simplifies model can provide a close estimate while the CAD model captures more of the final geometry.   
 ### Engineering Lessons Learned 
+One lesson that I learned from this project is that the member that carried the largest internal forces was not located where the largest external load is applied. The method of joints showed that member AC was under approximitly 37.96KN, even though the applied loads were only 20KN. This showed me how the angle that the member is set at can directly increase the forces that are transmitted through individual members. The comparison between the solidwords model and the hand calculated also demonstrates the limitations of simplified problem solving. This showed why analytical calculations are helpful for initial sizing while CAD can be used to provide a more accurate prediction once the final geomerty has been created.  
 ### Time Spent
+The total time spent on this project was 10 hours. 
 ### CAD Files
+The completed SolidWorks files for the truss and pin are provided below so that the final dimension, geometry, materials properties and mass properties can be reviewed. 
 ## MEGR 2157 - Failure Mode Analysis
 ### Truss Member Failure Modes
+The truss members were made out from AISI 1020 Steel, which is considered to be a ductile material. The tension members from AB, CD, and DA would be expected to fail primarily by yielding as the applied load increases, rather than sudden brittle fracture. Members AC and BC are in compression, making buckling a possible failure mode, with AC being the highest axial stress at 94.9MPa, which is below the AISI 1020 yield strength of 351.57MPa and the allowable stress 100.45 MPa using the safety factor of 3.5. Therefore none of the members are expected to to fail under specfic loading. The likelihood of yielding could be reduced by increasing the member cross-sectional area, while the likelyhood of buckling in the compression members could be reduced by increasing thier stiffness or reducing thier unsupported length. 
 ### Pin Connection Failure Mode
+The most likely failure mode for connecting pins is shear failure, since the pins transfer the load between the truss members through a singe sheer plane. The critical pin was identified at joint B where the resultant load is 20kn.Using a 10 mm diameter pin gives a shear area of 78.54mm^2, resulting in a shear stress of approximately 254.6MPa. This is below the allowable shear stress of approximately 293 Mpa, which was calculated from the specified 170 ksi shear yield strength and a factor of safety of 4. A larger pin diameter would reduce the shear stress and further decrease the likelihood of pin failure
 ### Sources
-### AI Use
+Mat Web: https://matweb.com/search/DataSheet.aspx?MatGUID=10b74ebc27344380ab16b1b69f1cffbb&
+
+Prudue: https://www.purdue.edu/freeform/me323/wp-content/uploads/sites/2/2020/09/chapter03.pdf?
