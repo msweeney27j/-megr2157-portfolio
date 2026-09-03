@@ -27,6 +27,8 @@ The minimum required cross-sectional area was calculated to be approximately 378
 The minimum calculated pin diameter was 9.32mm based on the critical single-shear load at joint C. A 10 mm diameter pin was selected to provide a practical size that exceeds the calculated minimum while maintaining the required factor of safety. All four pins were modeled with the same diameter and a length of 20 mm to maintain consistency throughout the design.
 ## Communicate
 ### CAD Model
+![Front view of completed truss CAD model](Truss_photo_front.png)
+
 A 3D CAD model of the truss was created in solid works using the final geometry and dimensions from hand calculations. The truss modeled as a single part with all members using the 20mm x 20mm cross sectional area and the 4 pin locations were included at joints A, B, C, and D. The pins were modeled separately as 10mm diameter cylinders with a length of 20mm to match the calculated design.  
 ### Mass Properties and Weight Comparison
 The solid works mass properties tool was used to determine the predicted mass of the completed truss and pins. The truss model has a mass of 11.492kg which corresponds to a weight of 112.7N. Each pin had a mass of approximately 12.35g making the combined pin weight 49.4g for all 4 pins. The hand calculated truss weight was approximate 107N, while the solid works predicted the weight to be 112.7N. The CAD result is slightly higher because the model includes additional material around the joint regions that was not represented in the hand calculations. This comparison shows the how a simplifies model can provide a close estimate while the CAD model captures more of the final geometry.   
