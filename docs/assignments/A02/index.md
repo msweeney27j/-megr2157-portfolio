@@ -42,6 +42,9 @@ One lesson that I learned from this project is that the member that carried the 
 The total time spent on this project was 10 hours. 
 ### CAD Files
 The completed SolidWorks files for the truss and pin are provided below so that the final dimension, geometry, materials properties and mass properties can be reviewed. 
+- [Download Truss SolidWorks Part](Truss.SLDPRT)
+- [Download Pin SolidWorks Part](Pin.SLDPRT)
+
 ## MEGR 2157 - Failure Mode Analysis
 ### Truss Member Failure Modes
 The truss members were made out from AISI 1020 Steel, which is considered to be a ductile material. The tension members from AB, CD, and DA would be expected to fail primarily by yielding as the applied load increases, rather than sudden brittle fracture. Members AC and BC are in compression, making buckling a possible failure mode, with AC being the highest axial stress at 94.9MPa, which is below the AISI 1020 yield strength of 351.57MPa and the allowable stress 100.45 MPa using the safety factor of 3.5. Therefore none of the members are expected to to fail under specfic loading. The likelihood of yielding could be reduced by increasing the member cross-sectional area, while the likelyhood of buckling in the compression members could be reduced by increasing thier stiffness or reducing thier unsupported length. 
