@@ -73,3 +73,43 @@ The most likely failure mode for connecting pins is shear failure, since the pin
 Mat Web: https://matweb.com/search/DataSheet.aspx?MatGUID=10b74ebc27344380ab16b1b69f1cffbb&
 
 Prudue: https://www.purdue.edu/freeform/me323/wp-content/uploads/sites/2/2020/09/chapter03.pdf?
+
+### AI Use 
+Prompt: describe the failure of trusses members and pin connections
+solutiion: For a typical pin-connected truss, failure can happen in either the truss members or the pin connections:
+
+Truss Member Failure
+
+Truss members primarily carry axial tension or compression.
+
+Tension failure: A member is pulled apart when the tensile stress exceeds the material’s strength. It may yield, stretch, and eventually fracture.
+Compression failure: A member can crush if the compressive stress is too high.
+Buckling: Long, slender compression members may suddenly bend sideways and become unstable before the material itself crushes. Buckling is often the main concern for compression members.
+Pin Connection Failure
+
+Pins transfer forces between the truss members.
+
+Pin shear: The pin can be sheared across its cross-section when the connection force becomes too large.
+Bearing failure: The pin pushes against the side of the hole, causing the pin or member around the hole to deform/crush.
+Tear-out: The material between the pin hole and the edge of the member can rip out.
+Net-section tension failure: The hole reduces the member's cross-sectional area, so the member can fracture across the pin hole.
+
+Simple summary:
+
+Truss members generally fail by tension, crushing, or buckling, while pin connections generally fail by shear, bearing, tear-out, or fracture around the pin hole.
+
+Follow up prompt: what are typical modifcations engineers use to get arround these issues
+Follow up solition: Engineers typically modify the geometry, material, or connection design to prevent these failures.
+
+Failure problem	Typical engineering modification
+Tension failure	Increase the member's cross-sectional area or use a stronger material
+Compression/crushing	Use a thicker/larger member or higher-strength material
+Buckling	Use a larger cross-section, add bracing, shorten the unsupported length, or change the cross-sectional shape
+Pin shear	Increase pin diameter, use a stronger pin, or design the connection for double shear
+Bearing failure	Increase pin diameter or increase the thickness of the material around the pin
+Tear-out at pin hole	Move the hole farther from the edge or increase the width/thickness of the member
+Fracture across pin hole	Make the member wider around the hole or reinforce the connection area
+
+A major one to remember for trusses is buckling. Engineers often don't just make a compression member thicker—they may use an I-section, tube, or other shape that increases its resistance to buckling without adding a huge amount of weight.
+
+For pin connections, engineers commonly use gusset plates to spread the forces over a larger area and strengthen the joint.
