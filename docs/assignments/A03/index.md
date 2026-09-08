@@ -16,7 +16,7 @@ The objective of this assignment is to parametrically design an aluminum beam wi
 ## Decide
 
 ### Material Selection
-
+!
 ### Bar Geometry Selection
 
 
