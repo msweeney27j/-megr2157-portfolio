@@ -12,18 +12,19 @@ The objective of this assignment is to parametrically design an aluminum beam wi
 ### Axial Deflection Analysis 
 
 ### Parametric Equations 
-
+![Solidworks global variables and parametric equations](A3Variables.png)
 ## Decide
 
 ### Material Selection
-!
+![6061-T6 aluminum material properties](A3Material.png)
 ### Bar Geometry Selection
 
 
 ## Communicate
 
 ### Parametric CAD Model
-
+![Diameter linked to Diameter global variable](DiameterA3dimension.png)
+![Extrusion length linked to Length global variable](LengthA3dimension.png)
 ### Finite Element Analysis Setup
 
 ### Deflection Map
