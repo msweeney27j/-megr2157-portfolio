@@ -94,15 +94,19 @@ Both diameter and length were controlled using SolidWorks global variables. The 
 
 The CAD model was created in SolidWorks using an extruded boss of a circular sketch. Rather than entering in set dimensions, the diameter was linked to the diameter global variable, and the extrusion depth was linked to the calculated length global variable. This allows the physical geometry model to automatically updated whenever the variables are changed. 
 ### Finite Element Analysis Setup
+![SolidWorks FEA mesh and simulation setup](MeshA3.png)
 
 A static finite element analysis was performed in solidworks simulation to veerify the theoretical design. The 6061-T6 aluminum material was applied to the model. One circular end of the bar was fixed, while a 400 lbf tensile force was applied normal to the opposite end face. The bar was then meshed and the static study was solved. The simulation was used to determine the maximum displaement and von Mises stress of the bar.
 ### Deflection Map
+![SolidWorks FEA displacement results](A3Deflection.png)
+
 The displacement results from the SolidWorks FEA showed a maximum resultant displacement of 0.008993 in. The theoretical design was created for a maximum allowable displacement of 0.009 in. Therefore, the FEA result remained within the specific deflection limit and was extremely close to the theoretical prediction.
 
 Maximum FEA displacement = 0.008993 in
 
 Allowable displacement = 0.009 in
 ### Von Mises Stress Map
+![SolidWorks von Mises stress results](A3VonMisesStress.png)
 
 The von Mises stress plot was used to evaluate the stress developed in the bar under our applied 400 lbf tensile load. The SolidWorks simulation produced a maximum von Mises stress of 3.843 ksi. This value is significantly below the approximately 40 ksi yield strength of the 6061-T6 aluminum used in the model.
 
@@ -179,14 +183,17 @@ The total time spent completing this assignment was approximately 8 hours.
 
 The solidworks part file for the parametric aluminum bar is available for download
 
+[Download A3 SolidWorks Part](A3Solidworks.SLDPRT)
 
 ## MEGR 2157 - Modify Design Parameters
 
 ### Load Modification 
+![SolidWorks load parameter modification](A3LoadModification.png)
 
 For the first parameter modification, the applied load was increased from 400 lbf to 450 lbf while the other design parameters remained unchanged. Before modifying the model, I predicted that increasing the load would decrease the length. The load is in the denominator, so increasing the load requires a shorter bar to maintain the same maximum deflection. After increasing the load to 450 lbf in solidworks, the parametric model automically recalculated the bar length from 24.85 in to 22.09 in. The SolidWorks resklt matched my prediction 
 
 ### Diameter Modification 
+![SolidWorks diameter parameter modification](A3DiameterModification.png)
 
 For the second parameter modification, the load was returned to 400 lbf and this time the diameter was increased. I predicted that increasing the diameter would increase the bar length. Increasing the diameter increases the cross-sectional area which is in the numerator so the length would increase. After increasing the diameter to 0.425 in, SolidWorks recalculated the length from 24.85 to 31.92. The SolidWorks result matched my prediction. 
 
