@@ -163,13 +163,13 @@ The estimated maximum stress around the pin hole was calculated using:
 
 σmax = 10.87 ksi   
 
-Using a yield strength of approximately 40 ksi, the resulting factor of safety is: 
+Using the SolidWorks yield strength of 39.89 ksi, the resulting factor of safety is:
 
 n = Sy / σmax
 
-n = 40 ksi / 10.87 ksi
+n = 39.89 ksi / 10.87 ksi
 
-n= 3.68
+n = 3.67
 
 The estimated peak stress at the pin hole is below the material yield strength. Therefore the bar would still satisfy the strength requirement with an estimated factor of safety of 3.68.
 ### Engineering lessons learned 
