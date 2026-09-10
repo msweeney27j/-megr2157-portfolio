@@ -19,7 +19,7 @@ The bar was designed according to the following requirements:
 
 -Circular cross section
 
--Geometry controlled parametically in solidworks
+-Geometry controlled parametrically in solidworks
 
 -Yield strength of approximately 40 ksi
 
@@ -42,7 +42,7 @@ The equation was rearranged to solve for the allowable bar length
 
 L = δAE / F
 
-Using a maximum deflection of 0.009 in, a load of 400 lbf, a diameter of 0.375 in, and an elastic modulus of 10.0 x 10^6 psi, the calculated bar length was approximatley 24.85 in.
+Using a maximum deflection of 0.009 in, a load of 400 lbf, a diameter of 0.375 in, and an elastic modulus of 10.0 x 10^6 psi, the calculated bar length was approximately 24.85 in.
 
 ### Parametric Equations 
 ![Solidworks global variables and parametric equations](A3Variables.png)
