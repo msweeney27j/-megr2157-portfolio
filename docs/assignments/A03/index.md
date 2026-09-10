@@ -10,11 +10,17 @@ The objective of this assignment is to parametrically design an aluminum beam wi
 The bar was designed according to the following requirements:
 
 -Direct Tensile loading between 300 and 500 lbf
+
 -Aluminum material
+
 -Maximum axial deflection of 0.009 in
+
 -Young's modulus between 8.5 x 10^6 and ll.5 x 10^6 psi
+
 -Circular cross section
+
 -Geometry controlled parametically in solidworks
+
 -Yield strength of approximately 40 ksi
 
 For the final design, a tensile load of 400 lbf and a diameter of 0.375 in were selected. 
@@ -141,22 +147,48 @@ Using the nominal axial stress:
 
 σnom = 3.622 ksi
 
-The estimated maximum stress around the pin hole was calculated using 
+The estimated maximum stress around the pin hole was calculated using: 
+
+σmax = Kt(σnom)
+
+σmax = (3.0)(3.622 ksi)
+
+σmax = 10.87 ksi   
+
+Using a yield strength of approximately 40 ksi, the resulting factor of safety is: 
+
+n = Sy / σmax
+
+n = 40 ksi / 10.87 ksi
+
+n= 3.68
+
+The estimated peak stress at the pin hole is below the material yield strength. Therefore the bar would still satisfy the strength requirement with an estimated factor of safety of 3.68.
 ### Engineering lessons learned 
 
+The assignment demonstrated how theoretical calculation, parametric CAD, and finite element analysis can be used together during the engineering design process. By controlling the geometry with equations, changes to the design parameters could automatically update the dimensions of the model. The FEA results also showed us the importance od verifying theoretical equations with a simulation. 
 ### Mistakes Made
 
+One mistake I made was initially focusing only on the calculated dimensions without considering that the exact material properties used by SolidWorks were slightly different from the values used in my hand calculations. The theoretical calculation used an elastic modulus of 10.0 x 10^6 psi, while the SolidWorks material model used 10,007,604 psi.
+
+I also had to make sure that the force direction in the FEA represented tension and the results were displayed in use units such as ksi and inches. Checking the unit settings before reading the results helped me prevent any errors in the final analysis. 
 ### Time Spent
 
+The total time spent completing this assignment was approximately 8 hours.
 ### CAD Files
+
+The solidworks part file for the parametric aluminum bar is available for download
+
 
 ## MEGR 2157 - Modify Design Parameters
 
 ### Load Modification 
 
+For the first parameter modification, the applied load was increased from 400 lbf to 450 lbf while the other design parameters remained unchanged. Before modifying the model, I predicted that increasing the load would decrease the length. The load is in the denominator, so increasing the load requires a shorter bar to maintain the same maximum deflection. After increasing the load to 450 lbf in solidworks, the parametric model automically recalculated the bar length from 24.85 in to 22.09 in. The SolidWorks resklt matched my prediction 
+
 ### Diameter Modification 
 
-### Parameter Study Results
+For the second parameter modification, the load was returned to 400 lbf and this time the diameter was increased. I predicted that increasing the diameter would increase the bar length. Increasing the diameter increases the cross-sectional area which is in the numerator so the length would increase. After increasing the diameter to 0.425 in, SolidWorks recalculated the length from 24.85 to 31.92. The SolidWorks result matched my prediction. 
 
 ### AI Use 
 
