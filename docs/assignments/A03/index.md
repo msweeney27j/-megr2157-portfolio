@@ -203,4 +203,80 @@ For the first parameter modification, the applied load was increased from 400 lb
 For the second parameter modification, the load was returned to 400 lbf and this time the diameter was increased. I predicted that increasing the diameter would increase the bar length. Increasing the diameter increases the cross-sectional area which is in the numerator so the length would increase. After increasing the diameter to 0.425 in, SolidWorks recalculated the length from 24.85 to 31.92. The SolidWorks result matched my prediction. 
 
 ### AI Use 
+Prompt 1 : I am creating a parametric circular aluminum bar in SolidWorks. I have already determined that my governing equation is δ = FL/AE and rearranged it to L = δAE/F. My chosen variables are F = 400 lbf, δ = 0.009 in, E = 10,000,000 psi, and diameter = 0.375 in. Explain how I can implement my variables and equations as SolidWorks global variables and link them to my sketch diameter and extrusion length. Do not make any engineering design decisions for me.
+
+Solution 1: You’ve already chosen the variables and governing relationship, so the SolidWorks part is mainly about implementing your existing equations parametrically, not changing the design.
+
+In SolidWorks, open your part and go to Tools → Equations. Under Global Variables, create variables corresponding to the values you already selected. For example:
+
+"F" = 400
+"delta" = 0.009in
+"E" = 10000000psi
+"Diameter" = 0.375in
+
+Then define the quantities needed by your governing equation. Since your bar is circular, enter the area relationship you are already using:
+
+"Area" = pi * ("Diameter"^2) / 4
+
+Then enter your rearranged axial-deflection relationship for length:
+
+"Length" = ("delta" * "Area" * "E") / "F"
+
+SolidWorks equations can be picky about units, so the exact syntax it accepts may depend on how your document units and equation fields are configured. The important structure is that Diameter feeds Area, and Area feeds Length.
+
+Next, edit the sketch containing your circle. Double-click the circle's diameter dimension. Instead of typing a numerical diameter, type:
+
+="Diameter"
+
+SolidWorks should recognize the global variable and link that sketch dimension to it.
+
+Then edit your Extruded Boss/Base feature. For the extrusion depth, link the dimension to:
+
+="Length"
+
+Your dependency chain is now:
+
+Diameter → Area → Length
+    ↓
+Sketch diameter
+
+Length → Extrusion depth
+
+That means when you change one of your chosen global variables, SolidWorks recalculates the dependent equations and rebuilds the geometry. You are simply encoding your existing mathematical model into the CAD model; SolidWorks isn't selecting the diameter, load, allowable deflection, material property, or any other design input for you.
+
+Prompt 2:I am performing a parameter study on my parametric axial bar. Before changing the model, I predict that increasing the applied load will decrease the allowable length, and increasing the diameter will increase the allowable length. My governing equations are L = δAE/F and A = πd²/4. Explain whether my predictions are consistent with these equations and explain the mathematical relationship causing each change. Do not select parameters or make design decisions for me.
+
+Solution 2: Yes. Both predictions are consistent with your equations.
+
+Starting with your governing relationship:
+
+$$ L=\frac{\delta AE}{F} $$
+
+For your parameter study, if the other variables are held constant:
+
+Increasing applied load \(F\): Load is in the denominator, so length is inversely proportional to load:
+
+$$ L\propto\frac{1}{F} $$
+
+Therefore, increasing \(F\) decreases the allowable \(L\). For example, if \(F\) were doubled while everything else stayed constant, \(L\) would be cut in half. So your first prediction is correct.
+
+Increasing diameter \(d\): The diameter affects length through the circular cross-sectional area:
+
+$$ A=\frac{\pi d^2}{4} $$
+
+Substituting this into your length equation gives:
+
+$$ L=\frac{\delta E}{F}\left(\frac{\pi d^2}{4}\right) =\frac{\delta E\pi}{4F}d^2 $$
+
+Therefore:
+
+$$ L\propto d^2 $$
+
+So increasing diameter increases allowable length quadratically, not linearly. For example, a 10% increase in diameter corresponds to an area—and therefore allowable length—factor of \(1.10^2=1.21\), assuming the other variables remain constant.
+
+So the relationships you're testing are:
+
+$$ \boxed{L\propto \frac{1}{F}} \qquad\text{and}\qquad \boxed{L\propto d^2} $$
+
+That mathematically supports both of your predictions without requiring any change to your selected parameters or design.
 
