@@ -145,7 +145,7 @@ The extremely small percent difference shows that the FEA result closely agrees 
 ### Pin hole Stress Concentration 
 ![Pin hole stress concentration calculations](Pin.jpeg)
 
-A pin hole in a tensile member creates a stress concentration around the hole. For this analysis, a stress concentration factor of approximately Kt = 3.0 was used for a circular hole in tension.
+A pin hole in a tensile member creates a stress concentration around the hole. For this analysis, a stress concentration factor of approximately Kt = 3.0 was used for a circular hole in tension, based on the stress concentration charts in Machinery's Handbook
 
 Using the nominal axial stress: 
 
