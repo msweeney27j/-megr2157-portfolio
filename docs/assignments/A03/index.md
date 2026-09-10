@@ -134,9 +134,9 @@ The theoretical calculations predicted an axial deflection of 0.00900 in. The So
 
 The percent difference was calculated using: 
 
-Percent Difference = [FEA - Hand Calculation] / Hand Calculation x 100
+Percent Difference = |FEA - Hand Calculation| / Hand Calculation x 100
 
-Percent Difference = [0.008993 - 0.009000] / 0.00900 x 100
+Percent Difference = |0.008993 - 0.009000| / 0.009000 x 100
 
 Percent Difference = 0.078%
 
