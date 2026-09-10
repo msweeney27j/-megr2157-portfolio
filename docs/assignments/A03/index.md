@@ -79,9 +79,9 @@ According to the SolidWorks material library, 6061-T6 aluminum has the following
 -Poisson's Ratio = 0.33
 -Yield Strength = 39,885.38 psi
 
-An elastic modulus of 10.0 x 10^6 psi was used for the parametric deign calculations. This is within the required range and is very close to the SolidWorks material value. 
+An elastic modulus of 10.0 x 10^6 psi was used for the parametric design calculations. This is within the required range and is very close to the SolidWorks material value. 
 
-The assignment specfices a yield strength of approximately 40 ksi, which is consistent with the solidworks value of 39.89 ksi.
+The assignment specifices a yield strength of approximately 40 ksi, which is consistent with the solidworks value of 39.89 ksi.
 ### Bar Geometry Selection
 
 A diameter of 0.375 in was selected for the initial design. Using the circular cross-sectional area and axial deflection equation, the required length of the bar was calculated to be approximately 24.85 in.
@@ -97,7 +97,7 @@ The CAD model was created in SolidWorks using an extruded boss of a circular ske
 ### Finite Element Analysis Setup
 ![SolidWorks FEA mesh and simulation setup](MeshA3.png)
 
-A static finite element analysis was performed in solidworks simulation to veerify the theoretical design. The 6061-T6 aluminum material was applied to the model. One circular end of the bar was fixed, while a 400 lbf tensile force was applied normal to the opposite end face. The bar was then meshed and the static study was solved. The simulation was used to determine the maximum displaement and von Mises stress of the bar.
+A static finite element analysis was performed in solidworks simulation to verify the theoretical design. The 6061-T6 aluminum material was applied to the model. One circular end of the bar was fixed, while a 400 lbf tensile force was applied normal to the opposite end face. The bar was then meshed and the static study was solved. The simulation was used to determine the maximum displacement and von Mises stress of the bar.
 ### Deflection Map
 ![SolidWorks FEA displacement results](A3Deflection.png)
 
@@ -140,7 +140,7 @@ Percent Difference = |0.008993 - 0.009000| / 0.009000 x 100
 
 Percent Difference = 0.078%
 
-The extremely small percent difference shows that the FEA result closely agrees with the theoretical calculation. The small difference is likely due to the SolidWorks material model using an elastic modulus of 10,007,604 psi, while the hand calculations used 10,000,000 psi. I would trust the result in the FEA slightly more because it used the specfic material properties assinged to the solidworks model. However the close spread between the two results verifies that the theoretical and FEA model are consistent. 
+The extremely small percent difference shows that the FEA result closely agrees with the theoretical calculation. The small difference is likely due to the SolidWorks material model using an elastic modulus of 10,007,604 psi, while the hand calculations used 10,000,000 psi. I would trust the result in the FEA slightly more because it used the specific material properties assigned to the solidworks model. However the close spread between the two results verifies that the theoretical and FEA model are consistent. 
 
 ### Pin hole Stress Concentration 
 ![Pin hole stress concentration calculations](Pin.jpeg)
@@ -174,12 +174,12 @@ n = 3.67
 The estimated peak stress at the pin hole is below the material yield strength. Therefore the bar would still satisfy the strength requirement with an estimated factor of safety of 3.68.
 ### Engineering lessons learned 
 
-The assignment demonstrated how theoretical calculation, parametric CAD, and finite element analysis can be used together during the engineering design process. By controlling the geometry with equations, changes to the design parameters could automatically update the dimensions of the model. The FEA results also showed us the importance od verifying theoretical equations with a simulation. 
+The assignment demonstrated how theoretical calculation, parametric CAD, and finite element analysis can be used together during the engineering design process. By controlling the geometry with equations, changes to the design parameters could automatically update the dimensions of the model. The FEA results also showed us the importance of verifying theoretical equations with a simulation. 
 ### Mistakes Made
 
 One mistake I made was initially focusing only on the calculated dimensions without considering that the exact material properties used by SolidWorks were slightly different from the values used in my hand calculations. The theoretical calculation used an elastic modulus of 10.0 x 10^6 psi, while the SolidWorks material model used 10,007,604 psi.
 
-I also had to make sure that the force direction in the FEA represented tension and the results were displayed in use units such as ksi and inches. Checking the unit settings before reading the results helped me prevent any errors in the final analysis. 
+I also had to make sure that the force direction in the FEA represented tension and the results were displayed in useful units such as ksi and inches. Checking the unit settings before reading the results helped me prevent any errors in the final analysis. 
 ### Time Spent
 
 The total time spent completing this assignment was approximately 8 hours.
@@ -195,7 +195,7 @@ The solidworks part file for the parametric aluminum bar is available for downlo
 ### Load Modification 
 ![SolidWorks load parameter modification](A3LoadModification.png)
 
-For the first parameter modification, the applied load was increased from 400 lbf to 450 lbf while the other design parameters remained unchanged. Before modifying the model, I predicted that increasing the load would decrease the length. The load is in the denominator, so increasing the load requires a shorter bar to maintain the same maximum deflection. After increasing the load to 450 lbf in solidworks, the parametric model automically recalculated the bar length from 24.85 in to 22.09 in. The SolidWorks resklt matched my prediction 
+For the first parameter modification, the applied load was increased from 400 lbf to 450 lbf while the other design parameters remained unchanged. Before modifying the model, I predicted that increasing the load would decrease the length. The load is in the denominator, so increasing the load requires a shorter bar to maintain the same maximum deflection. After increasing the load to 450 lbf in solidworks, the parametric model automatically recalculated the bar length from 24.85 in to 22.09 in. The SolidWorks result matched my prediction 
 
 ### Diameter Modification 
 ![SolidWorks diameter parameter modification](A3DiameterModification.png)
