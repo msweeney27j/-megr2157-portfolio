@@ -30,6 +30,7 @@ For the final design, a tensile load of 400 lbf and a diameter of 0.375 in were 
 A circular cross section was selected for the bar as specified by the design requirements. The diameter was defined as a global variable in SolidWorks so that changes to the diameter would automatically update the cross-sectional area and calculated bar length. 
 
 ### Axial Deflection Analysis 
+![Hand calculations for axial deflection](axial deflection.jpeg)
 
 The axial deflection of the bar was determined using the direct tension elongation equation found in our Machinery's handbook:
 
@@ -127,6 +128,7 @@ n = 10.38
 The resulting factor of safety is 10.38. Therefore, the bar remains well below the yield strength of the material under the applied 400 lbf tensile load. 
 
 ### Hand Calculations vs. FEA 
+![Hand stress analysis and factor of safety calculations](stress analysis and factor of safety.jpeg)
 
 The theoretical calculations predicted an axial deflection of 0.00900 in. The SolidWorks finite element analysis produced a maximum displacement of 0.008993 in.
 
@@ -139,7 +141,9 @@ Percent Difference = [0.008993 - 0.009000] / 0.00900 x 100
 Percent Difference = 0.078%
 
 The extremely small percent difference shows that the FEA result closely agrees with the theoretical calculation. The small difference is likely due to the SolidWorks material model using an elastic modulus of 10,007,604 psi, while the hand calculations used 10,000,000 psi. I would trust the result in the FEA slightly more because it used the specfic material properties assinged to the solidworks model. However the close spread between the two results verifies that the theoretical and FEA model are consistent. 
+
 ### Pin hole Stress Concentration 
+![Pin hole stress concentration calculations](Pin.jpeg)
 
 A pin hole in a tensile member creates a stress concentration around the hole. For this analysis, a stress concentration factor of approximately Kt = 3.0 was used for a circular hole in tension.
 
@@ -186,6 +190,7 @@ The solidworks part file for the parametric aluminum bar is available for downlo
 [Download A3 SolidWorks Part](A3Solidworks.SLDPRT)
 
 ## MEGR 2157 - Modify Design Parameters
+![MEGR 2157 parameter study calculations](2157 Parameter.jpeg)
 
 ### Load Modification 
 ![SolidWorks load parameter modification](A3LoadModification.png)
