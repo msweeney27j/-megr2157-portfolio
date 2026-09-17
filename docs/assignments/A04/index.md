@@ -1,7 +1,7 @@
 # A4 – Motor Mount Design
 
 ## Objective
-The objective of this assignment was to design a motor mount for the specid 24 V DC gear motor. The mount is made up of 2 separate features which were both analyzed using beam bending equations for both deflection and stress. The final design was modeled in solidworks using the ABS material and included motor mounting holes, wall mounting holes and my added gussets to reduce deflection. 
+The objective of this assignment was to design a motor mount for the specified 34 V DC gear motor. The mount is made up of 2 separate features which were both analyzed using beam bending equations for both deflection and stress. The final design was modeled in SolidWorks using the ABS material and included motor mounting holes, wall mounting holes and my added gussets to reduce deflection. 
 
 ## Analyze
 
