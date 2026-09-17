@@ -13,7 +13,7 @@ The motor mount was designed around this 24 V DC gear motor with the load condit
 ![Gear motor dimensions from Appendix A](Appendixa.png)
 
 ### Feature 1 Analysis
-Feature 1 was modeled as a cantilever beam that supports the motor. The loading was represented by the applied bending moment show in in Appendix B. The feature was analyzed for both bending stress and maximum deflection to find the required cross-sectional area.
+Feature 1 was modeled as a cantilever beam that supports the motor. The loading was represented by the applied bending moment shown in in Appendix B. The feature was analyzed for both bending stress and maximum deflection to find the required cross-sectional area.
 
 ![Motor mount feature definitions and loading from Appendix B](AppendixB.png)
 
@@ -28,14 +28,14 @@ The free body diagram below shows Feature 1 modeled as a cantilever beam with th
 ![Feature 1 free-body diagram](Feature%201%20FBd.jpeg)
 
 #### Bending Stress Analysis
-The beam bending equation was used to determine the minimum thickness required to satisfy our stress requirements. The symbolic and numerical calculations are show below.
+The beam bending equation was used to determine the minimum thickness required to satisfy our stress requirements. The symbolic and numerical calculations are shown below.
 
 ![Feature 1 symbolic bending stress analysis](Feature%201%20bending%20symbollicly.jpeg)
 
 The calculated minimum thickness based on bending was 13.51 mm. 
 
 #### Deflection Analysis
-The bean deflection equation was used to determine the minimum thickness required to keep the maximum deflection below 0.30 mm. The symbolic and numerical calculations are shown below.
+The beam deflection equation was used to determine the minimum thickness required to keep the maximum deflection below 0.30 mm. The symbolic and numerical calculations are shown below.
 
 ![Feature 1 symbolic deflection analysis](feature%201%20sybolic%20defelection.jpeg)
 
@@ -83,7 +83,7 @@ The stress requirement produced a slightly larger minimum thickness and therefor
 
 ![Feature 2 cross-sectional area calculation](Figure%202%20area.jpeg)
 
-The final feature 12 geometry used in my SolidWorks model was 34 mm wide x 12 mm thickness, with an overall height of 80 mm.
+The final feature 2 geometry used in my SolidWorks model was 34 mm wide x 12 mm thickness, with an overall height of 80 mm.
 ## Decide
 
 
@@ -94,7 +94,7 @@ ABS was selected as the material for the motor mount. The lower reported values 
 
 ### Motor Mount Geometry Selection
 The final motor mount geometry was selected based on the stress and deflection calculations for each feature. 
-Feature 1 final dimensions: 34 mm wide, 34 mm long, 16 mmm thick.
+Feature 1 final dimensions: 34 mm wide, 34 mm long, 16 mm thick.
 Feature 2 final dimensions: 34 mm wide, 80 mm overall height, 12 mm thick
 
 ## Communicate
@@ -130,7 +130,7 @@ A Multiview drawing was created from the completed SolidWorks model. The drawing
 ![Motor mount multiview engineering drawing](Drawinga4screenshot.png)
 
 ## Engineering Lessons Learned
-This project showed how beam bending equations can be used to design a real component rather than just solving for stress or deflection after the geometry is already known. Feature 1 was controlled by deflection while feature 2 was controlled by bending stress. This showed that both requirements need to checked to find the controlling condition because it can change depending on geometry.  
+This project showed how beam bending equations can be used to design a real component rather than just solving for stress or deflection after the geometry is already known. Feature 1 was controlled by deflection while feature 2 was controlled by bending stress. This showed that both requirements need to bef checked to find the controlling condition because it can change depending on geometry.  
 
 This project also let me think about different ways to improve the stiffness of areas that are likely to bend. 
 
