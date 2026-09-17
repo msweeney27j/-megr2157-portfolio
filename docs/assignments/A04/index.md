@@ -8,8 +8,14 @@ The objective of this assignment was to design a motor mount for the specid 24 V
 ### Design Requirements
 The motor mount was designed around this 24 V DC gear motor with the load conditions specified in the picture. The applied load was 300N and had a required factor of safety of 3. The maximum allowable deflection for both features was defined as 0.30mm. I selected ABS as the material (couldn't find the other materials) and use the lower end of both the Young's Modulus and the yield strength. The values used were 1.79 GPa for Young's Modulus and 29.6 MPa for yield strength. The mount also had to include the clearance for the motor shaft and mounting bolts. The mounting hole clearance for M3 bolts was designed at 3.4mm.
 
+![Motor mounting orientation and applied load](INstructions%20photo.png)
+
+![Gear motor dimensions from Appendix A](Appendixa.png)
+
 ### Feature 1 Analysis
 Feature 1 was modeled as a cantilever beam that supports the motor. The loading was represented by the applied bending moment show in in Appendix B. The feature was analyzed for both bending stress and maximum deflection to find the required cross-sectional area.
+
+![Motor mount feature definitions and loading from Appendix B](AppendixB.png)
 
 #### Known and Unknown Values
 The known and unknow values used for feature 1 are show in my notebook calculations below. The analysis used a 300 N applied load, factor of safety of 3, and a maximum allowable deflection of 0.30 mm, and the material selected was ABS. A length and width of 34 mm was used for feature 1. 
