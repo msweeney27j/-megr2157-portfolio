@@ -147,3 +147,15 @@ I spent approximately 7-8 hours on this assignment.
 [Download SolidWorks Engineering Drawing](MountA4Drawing.SLDDRW)
 
 ## AI Use
+
+Prompt: What are common ways that mounts can be stiffened in order to keep it from bending  
+
+Common ways to stiffen a mount and reduce bending include:
+
+Add ribs or gussets between the mounting surfaces. These increase stiffness without adding a large amount of material.
+Increase the thickness of the section, especially in the direction of bending. Since the area moment of inertia depends strongly on section height, even a small increase can significantly reduce deflection.
+Shorten the unsupported length of the mount. Cantilever deflection increases rapidly with length, so reducing the distance between the load and support can greatly increase stiffness.
+Change the cross-sectional geometry, such as using an I-shaped, boxed, or channel section instead of a thin flat section.
+Add additional supports or attachment points to distribute the load and reduce the unsupported span.
+Use a material with a higher elastic modulus \(E\). A higher modulus means the material deforms less under the same load.
+Add fillets at corners and transitions. Fillets primarily reduce stress concentrations, but properly designed transitions can also improve the overall rigidity of the mount.
