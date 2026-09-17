@@ -84,6 +84,8 @@ The final feature 12 geometry used in my SolidWorks model was 34 mm wide x 12 mm
 ### Material Selection
 ABS was selected as the material for the motor mount. The lower reported values for the material properties were used in the calculations to keep the design conservative. The values used were 1.79 GPa for Young's Modulus and 29.6 MPa for yield strength. 
 
+![Mechanical properties of ABS used for design calculations](MechProperties%20of%20abs.png)
+
 ### Motor Mount Geometry Selection
 The final motor mount geometry was selected based on the stress and deflection calculations for each feature. 
 Feature 1 final dimensions: 34 mm wide, 34 mm long, 16 mmm thick.
