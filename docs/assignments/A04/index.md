@@ -65,30 +65,44 @@ The final feature 12 geometry used in my SolidWorks model was 34 mm wide x 12 mm
 
 
 ### Material Selection
+ABS was selected as the material for the motor mount. The lower reported values for the material properties were used in the calculations to keep the design conservative. The values used were 1.79 GPa for Young's Modulus and 29.6 MPa for yield strength. 
 
 ### Motor Mount Geometry Selection
+The final motor mount geometry was selected based on the stress and deflection calculations for each feature. 
+Feature 1 final dimensions: 34 mm wide, 34 mm long, 16 mmm thick.
+Feature 2 final dimensions: 34 mm wide, 80 mm overall height, 12 mm thick
 
 ## Communicate
 
 ### Parametric CAD Model
+The motor mount was modeled in SolidWorks using parametric modeling techniques. Global variables were used in the major design dimensions so that geometry could easily be changed if the design values changed. The variables controlled the main dimensions of feature 1, feature 2, and the gussets.
 
 ### Final CAD Model
+The final CAD model combined feature 1 and feature 2 into a single motor mount. The model included the motor shaft clearance, motor mounting holes, wall mounting holes, and my added gussets added at the inside corners to increase stiffness.
 
 ### Deflection Reduction Features
+Two triangular gussets were added between feature 1 and feature 2 to reduce deflection at the inside corner of either side of the mount. Each gusset has a thickness of 3 mm. These gussets help increase the stiffness of the connection between the horizontal and vertical features. 
 
 ### Motor Mounting Features
+Feature 1 included the required geometry for mounting the motor. The design included a center shaft clearance hole, a larger locating indentation for the raised motor boss, and four clearance holes for the M3 mounting bolts. The motor mounting features included a 6.5 mm diameter for the shaft clearance hole, an 18.0 mm diameter for the locating indentation and then 4x 3.4 mm diameter M3 clearance holes.
 
 ### Wall Mounting Features
-
+Feature 2 included four clearance holes for mounting the motor mount to the rigid wall. Each wall mounting hole had a diameter of 3.4 mm. The holes were placed symmetrically within the wall support region of feature 2. 
 ## MEGR 2157 – Engineering Drawing
 
 ### Multiview Drawing
+A Multiview drawing was created from the completed SolidWorks model. The drawing includes the front view, top view, right side view and an isometric view. The drawing includes dimensions required to manufacture the part without referencing  the 3D CAD model. Overall dimensions, hole locations, hole callouts, hidden lines, centerlines and center marks were all added. The drawing also includes the material, scale and part name in the title block. 
 
 ## Engineering Lessons Learned
+This project showed how beam bending equations can be used to design a real component rather than just solving for stress or deflection after the geometry is already known. Feature 1 was controlled by deflection while feature 2 was controlled by bending stress. This showed that both requirements need to checked to find the controlling condition because it can change depending on geometry.  
+
+This project also let me think about different ways to improve the stiffness of areas that are likely to bend. 
 
 ## Mistakes Made / Design Changes
+One of the main changes made during the design process was separating the motor mount into 2 features. I separated feature 1 to include only the 34mm x 34mm square and let feature 2 be the full vertical piece. I changed this so that it was easier to determine the correct length for the deflection and stress analysis of the free to bend section. These changes made the final model better match the actual motor geometry. 
 
 ## Time Spent
+I spent approximately 7-8 hours on this assignment.
 
 ## CAD Files
 
