@@ -16,11 +16,17 @@ Aluminum 6061-T6 was selected for the bracket and linkage. The material properti
 #### Known and Unknown Values / Free-Body Diagram 
 Feature A was modeled as a cantilever beam with a solid circular cross section. The applied load was 600lbf and acted at an assumed moment arm of 1.00in from a fixed connection. The unknown variables were the require diameter. The free body diagram shows the applied load, the support reaction and the reaction moment at the fixed end.
 
+![Feature A known and unknown values and free-body diagram](IMG_2523.jpeg)
+
 #### Stress Analysis
 Feature A was analyzed for bending stress using the assumed 1.00 in moment arm. The minimim required diameter from the stress analysis was 0.848in. 
 
+![Feature A stress analysis](IMG_2524.jpeg)
+
 #### Stiffness Analysis
 Feature A was analyzed for deflection using the assumed 1.00 in length. The minimum required diameter from the stiffness analysis was 0.534 in.
+
+![Feature A stiffness analysis](IMG_2522.jpeg)
 
 #### Feature A Cross-Section Selection
 The stress analysis required a larger diameter of 0.848 in compared to 0.534 in from the stiffness analysis. Therefore, stress governed and the selected diameter for Feature A was 0.848 in.
@@ -31,14 +37,20 @@ The stress analysis required a larger diameter of 0.848 in compared to 0.534 in 
 #### Known and Unknown Values / Free-Body Diagram
 Feature B was modeled as an axially loadedd member carrying 600lbf load trasnferred from freature A. A square cross-section was used with an assumed memeberlength of 0.848.
 
+![Feature B known and unknown values and free-body diagram](IMG_2521.jpeg)
+
 #### Stress Analysis
 Feature B was analyzed for axial stress under the 600 lbf load. The minimum required square cross-section from the stress analysis was 0.245 in × 0.245 in.
 
 #### Stiffness Analysis
 Feature B was analyzed for axial deflection using an assumed length of 0.848 in. The minimum required square cross-section dimension from the stiffness analysis was 0.101 in × 0.101 in.
 
+![Feature B stress analysis](IMG_2520.jpeg)
+
 #### Feature B Cross-Section Selection
 The stress analysis required a larger square cross-section of 0.245 in × 0.245 in compared to 0.101 in × 0.101 in from the stiffness analysis. Therefore, stress governed and 0.245 in × 0.245 in was selected for Feature B.
+
+![Feature B stiffness analysis](IMG_2519.jpeg)
 
 
 ### Feature C Analysis
@@ -46,11 +58,17 @@ The stress analysis required a larger square cross-section of 0.245 in × 0.245 
 #### Known and Unknown Values / Free-Body Diagram
 Feature C was modeled as a simply supported beam with a 600 lbf concentrated load at its center. The load produced two support reactions of 300 lbf, and a span of 0.9992 in was used for the analysis.
 
+![Feature C known and unknown values and free-body diagram](IMG_2518.jpeg)
+
 #### Stress Analysis
 Feature C was analyzed for bending stress as a simply supported beam with a 600 lbf center load. The minimum required thickness from the stress analysis was 0.326 in.
 
+![Feature C stress analysis](IMG_2517.jpeg)
+
 #### Stiffness Analysis
 Feature C was modeled as a simply supported beam with a center load and a span of 0.9992 in. The minimum required thickness from the stiffness analysis was 0.152 in.
+
+![Feature C stiffness analysis](IMG_2516.jpeg)
 
 #### Feature C Cross-Section Selection
 The stress analysis required a larger thickness of 0.326 in compared to 0.152 in from the stiffness analysis. Therefore, stress governed and a thickness of 0.326 in was selected for Feature C.
@@ -61,11 +79,17 @@ The stress analysis required a larger thickness of 0.326 in compared to 0.152 in
 #### Known and Unknown Values / Free-Body Diagram
 Feature D was modeled as an axially loaded member carrying one of the 300 lbf support reactions from Feature C. A square cross-section and an assumed member length of 1.499 in were used.
 
+![Feature D known and unknown values and free-body diagram](IMG_2515.jpeg)
+
 #### Stress Analysis
 Feature D was analyzed for axial stress under the 300 lbf reaction force from Feature C. The minimum required square cross-section from the stress analysis was 0.173 in × 0.173 in.
 
+![Feature D stress analysis](IMG_2514.jpeg)
+
 #### Stiffness Analysis
 Feature D was modeled as an axially loaded member carrying a 300 lbf reaction force. Using an assumed length of 1.499 in, the minimum required square cross-section dimension from the stiffness analysis was 0.095 in × 0.095 in.
+
+![Feature D stiffness analysis](IMG_2513.jpeg)
 
 #### Feature D Cross-Section Selection
 The stress analysis required a larger square cross-section of 0.173 in × 0.173 in compared to 0.095 in × 0.095 in from the stiffness analysis. Therefore, stress governed and 0.173 in × 0.173 in was selected for Feature D.
@@ -76,11 +100,17 @@ The stress analysis required a larger square cross-section of 0.173 in × 0.173 
 #### Known and Unknown Values / Free-Body Diagram
 Feature E was modeled as a cantilever carrying the 300 lbf load transferred through Feature D. An assumed length of 0.50 in was used to determine the required thickness for both stress and stiffness.
 
+![Feature E known and unknown values and free-body diagram](IMG_2512.jpeg)
+
 #### Stress Analysis
 Feature E was analyzed for bending stress using the 300 lbf transferred load and assumed 0.50 in length. The minimum required thickness from the stress analysis was 0.326 in.
 
+![Feature E stress analysis](IMG_2511.jpeg)
+
 #### Stiffness Analysis
 Feature E was modeled as a cantilever carrying a 300 lbf load. Using an assumed length of 0.50 in, the minimum required thickness from the stiffness analysis was 0.152 in.
+
+![Feature E stiffness analysis](IMG_2510.jpeg)
 
 #### Feature E Cross-Section Selection
 The stress analysis required a larger thickness of 0.326 in compared to 0.152 in from the stiffness analysis. Therefore, stress governed and a thickness of 0.326 in was selected for Feature E.
@@ -91,10 +121,19 @@ The stress analysis required a larger thickness of 0.326 in compared to 0.152 in
 #### Known and Unknown Values
 The known and unknown values used for the linkage are shown in my notebook calculations below. The linkage carries the same 600 lbf applied load and was designed using Aluminum 6061-T6 with a factor of safety of 4. I selected a thickness of 0.250 in for the linkage.
 
+![Linkage known and unknown values](IMG_2509.jpeg)
+
 #### Strength Analysis
 The linkage was analyzed for stress at the smallest cross-sectional area around both holes. The 1.00 in hole produced the smallest area and controlled the design. The minimum calculated width was 1.240 in, so I selected a final width of 1.250 in. The stress with the selected dimensions was 9,600 psi.
+
+![Linkage strength analysis](IMG_2508.jpeg)
+
+![Linkage stress check at both holes](IMG_2507.jpeg)
+
 #### Deflection Analysis
 The linkage was also analyzed for axial deflection. I selected a length of 2.00 in between the center of each hole. The calculated deflection was 0.00192 in, which was below the maximum allowable deflection of 0.005 in.
+
+![Linkage deflection analysis](IMG_2506.jpeg)
 
 #### Linkage Geometry Selection
 The final linkage geometry used a thickness of 0.250 in, a width of 1.250 in, and a center-to-center hole distance of 2.00 in. The final hole dimensions were determined using the required fits.
@@ -107,6 +146,8 @@ I selected an RC2 running fit between Feature A and the linkage so that the link
 
 #### 1-Inch Shaft Light Force Fit
 I selected an FN1 light force fit between the linkage and the 1.00 in shaft. From the Machinery’s Handbook table, the linkage hole limits were 1.0000–1.0005 in and the shaft limits were 1.0008–1.0012 in. This gives an interference of 0.0003–0.0012 in.
+
+![Selected linkage fits and additional dimensions](IMG_2505.jpeg)
 
 #### Manufacturing Methods
 The holes in the linkage would be drilled and then reamed to get the required dimensions. Feature A and the 1.00 in shaft could be turned on a lathe to get the required shaft dimensions. The FN1 connection would then be pressed together to create the interference fit.
@@ -129,8 +170,12 @@ The final linkage geometry used a thickness of 0.250 in, a width of 1.250 in, an
 ### Stress-Based Multiview Sketch
 The stress-based multiview sketch shows the bracket using the dimensions calculated from the stress analysis. The sketch includes the top, front, and right side views with the calculated dimensions for Features A through E.
 
+![Stress-based bracket multiview sketch](IMG_2504.jpeg)
+
 ### Stiffness-Based Multiview Sketch
 The stifness-based multiview sketch shows the bracket using the dimensions calculated from the stiffnessM analysis. The sketch includes the top, front, and right side views with the calculated dimensions for Features A through E.
+
+![Stiffness-based bracket multiview sketch](IMG_2503.jpeg)
 
 
 ## Engineering Lessons Learned
