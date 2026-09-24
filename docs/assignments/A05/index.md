@@ -89,37 +89,36 @@ The stress analysis required a larger thickness of 0.326 in compared to 0.152 in
 ### Linkage Analysis
 
 #### Known and Unknown Values
-
+The known and unknown values used for the linkage are shown in my notebook calculations below. The linkage carries the same 600 lbf applied load and was designed using Aluminum 6061-T6 with a factor of safety of 4. I selected a thickness of 0.250 in for the linkage.
 
 #### Strength Analysis
-
-
+The linkage was analyzed for stress at the smallest cross-sectional area around both holes. The 1.00 in hole produced the smallest area and controlled the design. The minimum calculated width was 1.240 in, so I selected a final width of 1.250 in. The stress with the selected dimensions was 9,600 psi.
 #### Deflection Analysis
-
+The linkage was also analyzed for axial deflection. I selected a length of 2.00 in between the center of each hole. The calculated deflection was 0.00192 in, which was below the maximum allowable deflection of 0.005 in.
 
 #### Linkage Geometry Selection
-
+The final linkage geometry used a thickness of 0.250 in, a width of 1.250 in, and a center-to-center hole distance of 2.00 in. The final hole dimensions were determined using the required fits.
 
 
 ### Linkage Fits
 
 #### Feature A Running/Sliding Fit
-
+I selected an RC2 running fit between Feature A and the linkage so that the linkage would be able to move freely around Feature A. From the Machinery’s Handbook table, the linkage hole limits were 0.8480–0.8485 in and the Feature A shaft limits were 0.8473–0.8477 in. This gives a clearance of 0.0003–0.0012 in.
 
 #### 1-Inch Shaft Light Force Fit
-
+I selected an FN1 light force fit between the linkage and the 1.00 in shaft. From the Machinery’s Handbook table, the linkage hole limits were 1.0000–1.0005 in and the shaft limits were 1.0008–1.0012 in. This gives an interference of 0.0003–0.0012 in.
 
 #### Manufacturing Methods
-
+The holes in the linkage would be drilled and then reamed to get the required dimensions. Feature A and the 1.00 in shaft could be turned on a lathe to get the required shaft dimensions. The FN1 connection would then be pressed together to create the interference fit.
 
 
 ## Decide
 
 ### Stress vs. Stiffness Comparison
-
+The stress and stiffness results were compared for all five features to determine which dimensions would control the final design. The stress calculations produced the larger required dimensions for all five features, so stress controlled the final bracket geometry. The stress dimensions were used for my final design.
 
 ### Final Bracket Geometry
-
+The final bracket geometry was based on the dimensions from the stress analysis since stress controlled all five features. Feature A used a diameter of 0.848 in, Feature B used a 0.245 in × 0.245 in square cross-section, Feature C used a thickness of 0.326 in, Feature D used a 0.173 in × 0.173 in square cross-section, and Feature E used a thickness of 0.326 in.
 
 ### Final Linkage Geometry
 
