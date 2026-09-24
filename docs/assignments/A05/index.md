@@ -1,12 +1,12 @@
 # A5 – Bracket and Linkage Design
 
 ## Objective
-The objective of this assignment was to design a bracket that supports an applied horizontal load. The bracket was divided into five features that were analyzed for both strength and stiffness using strength of materials equations. A factor of safety of 4 and a maximum of 0.0005 in per feature were used throughout the design. A linkage was also designed to connect Feature A to a 1-in Shaft, including strength, deflection and fit analyses. 
+The objective of this assignment was to design a bracket that supports an applied horizontal load. The bracket was divided into five features that were analyzed for both strength and stiffness using strength of materials equations. A factor of safety of 4 and a maximum of 0.005 in per feature were used throughout the design. A linkage was also designed to connect Feature A to a 1-in Shaft, including strength, deflection and fit analyses. 
 
 ## Analyze
 
 ### Design Requirements
-The bracket was designed for an applied load of 600lbg. A factor of safety of 4 was used for all strength calculations, and each feature has a maximum deflection of 0.005in. Each of the 5 bracket features must be analyzed separately for both stress and stiffness to find required dimensions. Direct shear failure was neglected as listed in instructions. The final dimesnions were determined by either stress or stiffness requirements depending on each feature.
+The bracket was designed for an applied load of 600lbf. A factor of safety of 4 was used for all strength calculations, and each feature has a maximum deflection of 0.005in. Each of the 5 bracket features must be analyzed separately for both stress and stiffness to find required dimensions. Direct shear failure was neglected as listed in instructions. The final dimesnions were determined by either stress or stiffness requirements depending on each feature.
 
 ### Material Properties
 Aluminum 6061-T6 was selected for the bracket and linkage. The material properties used in the calculations were a young's Modulus of 10.0 x 10^6 psi and a yield strength of 40,000 psi. With the required factor of safety of 4 the allowable stress used was 10,000 Psi.
@@ -41,16 +41,15 @@ Feature B was modeled as an axially loadedd member carrying 600lbf load trasnfer
 
 #### Stress Analysis
 Feature B was analyzed for axial stress under the 600 lbf load. The minimum required square cross-section from the stress analysis was 0.245 in × 0.245 in.
-
+![Feature B stress analysis](IMG_2520.jpeg)
 #### Stiffness Analysis
 Feature B was analyzed for axial deflection using an assumed length of 0.848 in. The minimum required square cross-section dimension from the stiffness analysis was 0.101 in × 0.101 in.
 
-![Feature B stress analysis](IMG_2520.jpeg)
+![Feature B stiffness analysis](IMG_2519.jpeg)
 
 #### Feature B Cross-Section Selection
 The stress analysis required a larger square cross-section of 0.245 in × 0.245 in compared to 0.101 in × 0.101 in from the stiffness analysis. Therefore, stress governed and 0.245 in × 0.245 in was selected for Feature B.
 
-![Feature B stiffness analysis](IMG_2519.jpeg)
 
 
 ### Feature C Analysis
@@ -195,6 +194,66 @@ This assignment showed me that the assumptions made when setting up each feature
 One of the main changes I made during this assignment was how I interpreted the geometry of the upper part of the bracket. At first I treated Feature E as a shorter section, but after looking back at the provided figures I realized that Feature E continued through the upper bracket. I changed my sketches to better match the geometry shown in the assignment.
 
 ## Time Spent
-I spent about 6-7 hours completing this project with the calculations taking a bulk of the tine.
+I spent about 6-7 hours completing this project with the calculations taking a bulk of the time.
 
 ## AI Use
+Prompt: What is the difference between a running/sliding fit and a force fit, and what manufacturing methods are commonly used to achieve each type of fit? Do not select a fit or make any design decisions for me.
+
+Claude:**Running/sliding fit** — intentional clearance between mating parts so they move relative to each other. The shaft is always smaller than the hole.
+
+**Force fit** — intentional interference; the shaft is larger than the hole so assembly requires pressing, heating, or freezing. Parts resist separation permanently.
+
+---
+
+**Common manufacturing methods to achieve each:**
+
+**Running/sliding fits:**
+- Precision turning + grinding to tight dimensional tolerances
+- Honing or lapping the bore
+- CNC machining with fine finishing passes
+- Tolerance controlled via ISO/ANSI fit standards (H7/f7 etc.)
+
+**Force fits:**
+- Precision grinding to hold tight positive interference tolerances
+- Cylindrical grinding of shafts to exact oversize
+- Bore finishing via honing to exact undersize
+- Assembly methods: hydraulic press, shrink fitting (heating hub), expansion fitting (cryogenic cooling of shaft)
+
+---
+
+The key manufacturing challenge in both cases is **holding dimensional tolerances consistently** — running fits require controlled clearance, force fits require controlled interference, and both demand surface finish quality that doesn't introduce variability beyond the tolerance band.
+
+Follow up prompt: What machining processes could be used to achieve the tight tolerances required for these fits, and why would reaming or turning be used instead of only drilling? Do not recommend specific dimensions, tolerances, or make design decisions for me.
+
+Claude: **Why drilling alone is insufficient:**
+
+Drilling is a roughing operation — it generates heat, the bit deflects, and the resulting hole has poor cylindricity, surface finish, and dimensional consistency. Positional and size error from drilling alone is too large for either fit type.
+
+---
+
+**Reaming vs. turning for hole finishing:**
+
+**Reaming** follows drilling to bring a hole to precise size and finish. The reamer removes a small, controlled amount of material with multiple flutes, improving:
+- Diameter consistency
+- Cylindricity
+- Surface finish
+
+It cannot correct position errors from drilling — it follows the existing hole path.
+
+**Boring** corrects position errors that reaming cannot, using a single-point tool on a boring bar. More controllable than reaming for location accuracy.
+
+---
+
+**Shaft-side processes:**
+
+**Turning** establishes the rough diameter but has limitations in surface finish and roundness at tight tolerances.
+
+**Cylindrical grinding** follows turning when tighter tolerances and better surface finish are needed — removes very little material with high consistency.
+
+**Lapping** or **honing** used when extreme surface finish and final size control are required, particularly for bore finishing on force fits.
+
+---
+
+**The core reason for multi-step processing:**
+
+Each operation has a capability range. No single process spans from raw stock to finished fit-quality surface in one step economically or accurately — each stage removes less material with higher precision than the last.
