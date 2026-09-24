@@ -121,34 +121,35 @@ The stress and stiffness results were compared for all five features to determin
 The final bracket geometry was based on the dimensions from the stress analysis since stress controlled all five features. Feature A used a diameter of 0.848 in, Feature B used a 0.245 in × 0.245 in square cross-section, Feature C used a thickness of 0.326 in, Feature D used a 0.173 in × 0.173 in square cross-section, and Feature E used a thickness of 0.326 in.
 
 ### Final Linkage Geometry
-
+The final linkage geometry used a thickness of 0.250 in, a width of 1.250 in, and a center-to-center hole distance of 2.00 in. The hole sizes were based on the RC2 running fit for Feature A and the FN1 light force fit for the 1.00 in shaft.
 
 
 ## Communicate
 
 ### Stress-Based Multiview Sketch
-
+The stress-based multiview sketch shows the bracket using the dimensions calculated from the stress analysis. The sketch includes the top, front, and right side views with the calculated dimensions for Features A through E.
 
 ### Stiffness-Based Multiview Sketch
-
+The stifness-based multiview sketch shows the bracket using the dimensions calculated from the stiffnessM analysis. The sketch includes the top, front, and right side views with the calculated dimensions for Features A through E.
 
 
 ## Engineering Lessons Learned
+One thing I learned from this assignment was the importance of checking both stress and stiffness when designing each feature. For my design, stress controlled all five features because the stress calculations required larger dimensions than the stiffness calculations. This showed me that the governing requirement depends on the load, geometry, and material being used.
 
 ### Governing Failure Mode
-
+This assignment showed me how an error in one part of the analysis can affect the features that come after it. The dimensions and forces calculated for the earlier features were used to help analyze the later features. This means that an incorrect assumption or calculation early in the design could change multiple dimensions in the final bracket.
 
 ### Error Propagation
-
+This assignment showed me that the assumptions made when setting up each feature can have a large effect on the final dimensions. Some dimensions and loading conditions were not directly given, so I had to make assumptions to complete the analysis. Changing these assumed lengths could change the stress or deflection results.
 
 ### Sensitivity to Assumptions
-
+This assignment showed me that the assumptions made when setting up each feature can have a large effect on the final dimensions. Some dimensions and loading conditions were not directly given, so I had to make assumptions to complete the analysis. Changing these assumed lengths or the way a feature was modeled would change the stress and deflection results.
 
 
 ## Mistakes Made / Design Changes
-
+One of the main changes I made during this assignment was how I interpreted the geometry of the upper part of the bracket. At first I treated Feature E as a shorter section, but after looking back at the provided figures I realized that Feature E continued through the upper bracket. I changed my sketches to better match the geometry shown in the assignment.
 
 ## Time Spent
-
+I spent about 6-7 hours completing this project with the calculations taking a bulk of the tine.
 
 ## AI Use
