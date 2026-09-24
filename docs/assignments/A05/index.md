@@ -35,7 +35,7 @@ The stress analysis required a larger diameter of 0.848 in compared to 0.534 in 
 ### Feature B Analysis
 
 #### Known and Unknown Values / Free-Body Diagram
-Feature B was modeled as an axially loadedd member carrying 600lbf load trasnferred from freature A. A square cross-section was used with an assumed memeberlength of 0.848.
+Feature B was modeled as an axially loaded member carrying 600lbf load transferred from feature A. A square cross-section was used with an assumed member length of 0.848.
 
 ![Feature B known and unknown values and free-body diagram](IMG_2521.jpeg)
 
