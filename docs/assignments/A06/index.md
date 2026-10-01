@@ -64,6 +64,10 @@ One of the main changes I made during this assignment was how I built the upper 
 I spent about 6 hours completing this project
 ## CAD Files
 
+[Download SolidWorks Drawing](A6part1.SLDDRW)
+
+[Download SolidWorks Part](A6part1.SLDPRT)
+
 ## AI Use
 
 Input: “How do I add engineered tolerances to dimensions in a SolidWorks drawing?”
