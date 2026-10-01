@@ -1,7 +1,7 @@
 # A6 – Bracket Drawing
 
 ## Objective
-The objective of this assignment was to create a fully parametric solidworks model and engineering drawing designed in the A5 assignment. The final drawing had be fully dimensioned using the third angle projection with tolerances included for the sliding-fit gaps. The model used the final stress-based dimensions from A5 and are contolled parametrically.
+The objective of this assignment was to create a fully parametric SolidWorks model and engineering drawing designed in the A5 assignment. The final drawing had be fully dimensioned using the third angle projection with tolerances included for the sliding-fit gaps. The model used the final stress-based dimensions from A5 and are controlled parametrically.
 
 ## Analyze
 
@@ -21,10 +21,10 @@ Feature D used a 0.173 in × 0.173 in square cross-section.
 Feature E used a thickness of 0.326 in.
 
 ### Sliding Fit Requirements
-The bracket was designed to slide over the rigid T-beam at 3 locations. Each of these gaps required running/sliding fits rather than using the general drawing tolerances. An RC2 running/sliding fit was used so the bracket could move over the T-beam while still maintaing a clearance.
+The bracket was designed to slide over the rigid T-beam at 3 locations. Each of these gaps required running/sliding fits rather than using the general drawing tolerances. An RC2 running/sliding fit was used so the bracket could move over the T-beam while still maintain a clearance.
 
 ### RC2 Fit Tolerances
-The tree sliding fit gaps were given the RC2 running/sliding fit tolerances. These tolerances were found from my machinery's handbook:
+The three sliding fit gaps were given the RC2 running/sliding fit tolerances. These tolerances were found from my machinery's handbook:
 
 0.173 in with +0.0003 / -0.0000
 0.245 in with +0.0004 / -0.0000
@@ -58,7 +58,7 @@ The tolerance block used:
 This assignment helped me understand how the dimension from an engineering analysis are used to develop a final Cad model and Drawing. I also learned the importance of using parametric dimensions so that changes to the design can update the model without needing to completely rebuild it. The drawing portion also showed me how engineered tolerances are used differently from general tolerances
 
 ## Mistakes Made / Design Changes
-One of the main changes I made during this assignment was how I built the upper section. At first, I tired creating each feature together as one sketch. I kept getting an error about an endpoint being undefined. After getting this same issue multiple times I had to change my approach. I then created each piece as its own separate extrusion and then would just sketch onto the different planes the following piece. I found this to be a lot easier than trying to extrude all at once. After completing my model, I had to go back and link the important dimension to global variables after the initial geometry was already made. 
+One of the main changes I made during this assignment was how I built the upper section. At first, I tried creating each feature together as one sketch. I kept getting an error about an endpoint being undefined. After getting this same issue multiple times I had to change my approach. I then created each piece as its own separate extrusion and then would just sketch onto the different planes the following piece. I found this to be a lot easier than trying to extrude all at once. After completing my model, I had to go back and link the important dimension to global variables after the initial geometry was already made. 
 
 ## Time Spent
 I spent about 6 hours completing this project
