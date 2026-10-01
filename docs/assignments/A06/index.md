@@ -6,7 +6,7 @@ The objective of this assignment was to create a fully parametric solidworks mod
 ## Analyze
 
 ### Design Requirements
-The bracket was modeled using the final stress-based dimensions from my A5 assignment. The cad model was set up to be parametric so that dimensions can be controlled through variables. Third angle projection was used to create our fully dimensioned drawing. The sliding fit gaps required tolerances based on the RC3 running/sliding fit values from my machinery's handbook. 
+The bracket was modeled using the final stress-based dimensions from my A5 assignment. The cad model was set up to be parametric so that dimensions can be controlled through variables. Third angle projection was used to create our fully dimensioned drawing. The sliding fit gaps required tolerances based on the RC2 running/sliding fit values from my machinery's handbook. 
 
 ### Parametric Design  
 The bracket was modeled in SolidWorks as a single part. The major dimension were linked to global variables so the geometry could automatically update if a value was changed. This made the model easier to modify and kept the cad dimensions consistent with the selected dimensions from A5.
