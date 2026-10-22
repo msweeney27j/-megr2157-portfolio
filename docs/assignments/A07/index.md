@@ -18,15 +18,41 @@ For Design I, I used the original bracket from A6 without making any changes to 
 
 The maximum stress occurred near the connection between the lower cylinder and the vertical arm, while the maximum displacement occurred at the free end of the cylinder. The final safety factor was above the required value of 4, and the bracket has a mass of 0.1601 lb. These results were used as the starting point for comparing the geometric changed made in Design II and III.
 
+![Design 1 Mass](A7_Design1_Mass.png)
+![Design 1 Mesh 1](A7_Design1_Mesh1.png)
+![Design 1 Mesh 1 Displacement](A7_Design1_Mesh1_Displacement.png)
+![Design 1 Mesh 1 Safety Factor](A7_Design1_Mesh1_SafetyFactor.png..png)
+![Design 1 Mesh 1 Stress](A7_Design1_Mesh1_Stress.png..png)
+![Design 1 Mesh 2 Displacement](A7_Design1_Mesh2_Displacement.png)
+![Design 1 Mesh 2 Safety Factor](A7_Design1_Mesh2_SafetyFactor.png..png)
+![Design 1 Mesh 2 Stress](A7_Design1_Mesh2_Stress.png..png)
+
 #### Design II – Filleted Bracket
 For Design II, I added fillets to the edges of the original bracket to see how rounding the corners would affect its strength, stiffness, and weight. The first simulation used 35,799 elements, which was refined to 40,411 elements. The maximum stress increased from 57.65 mpa to 58.08 moa, while the maximum displacement changed from 0.01056 to 0.01057 mm. The minimum safety factor decreased from 4.77049 to 4.73473. All three results converged within 7%, so a third mesh was not needed. 
 
 The maximum stress remained near the lower cylinder to arm connection, and the maximum displacement occurred at the free end of the cylinder. The brackets mass decreased to 0.1592 lb, but the maximum stress increased compared to Design I. The safety factor was still above the required value of 4. These results showed that adding fillets to every edge did not necessarily improve the brackets strength.
 
+![Design 2 Mesh 1](A7_Design2_Mesh1.png)
+![Design 2 Mesh 1 Displacement](A7_Design2_Mesh1_Displacement.png)
+![Design 2 Mesh 1 Safety Factor](A7_Design2_Mesh1_SafetyFactor.png..png)
+![Design 2 Mesh 1 Stress](A7_Design2_Mesh1_Stress.png..png)
+![Design 2 Mesh 2 Displacement](A7_Design2_Mesh2_Displacement.png)
+![Design 2 Mesh 2 Safety Factor](A7_Design2_Mesh2_SafetyFactor.png..png)
+![Design 2 Mesh 2 Stress](A7_Design2_Mesh2_Stress.png..png)
+
 #### Design III – Modified Fillets
 For Design III, I removed the fillets around the upper and lower linkage connections while keeping the remaining fillets from Design II. The first simulation used 25,667 elements, which was refined to 31,526 elements. The maximum stress decreased from 53.75 mpa to 50.47 mpa, while the maximum deflection increased slightly from 0.01044 mm to 0.01046 mm. The minimum safety factor increased from 5.11658 to 5.44827. All three results converged within 7% so a third mesh was not needed
 
 The maximum stress remained near the lower cylinder to arm connection, while the maximum displacement occurred at the free end of the cylinder. The final mass was 0.1592 lb, which was unchanged from Design II at four decimal places. Compared to Design II, the maximum stress decreased and the safety factor increased without adding measureable weight. However, Design I still had the highest overall safety factor. This showed that modifying the location of the fillets affected the brackets strength without significantly changing its stiffness or mass.
+
+
+![Design 3 Mesh 1](A7_Design3_Mesh1.png)
+![Design 3 Mesh 1 Displacement](A7_Design3_Mesh1_Displacement.png)
+![Design 3 Mesh 1 Safety Factor](A7_Design3_Mesh1_SafetyFactor.png..png)
+![Design 3 Mesh 1 Stress](A7_Design3_Mesh1_Stress.png..png)
+![Design 3 Mesh 2 Displacement](A7_Design3_Mesh2_Displacement.png)
+![Design 3 Mesh 2 Safety Factor](A7_Design3_Mesh2_SafetyFactor.png..png)
+![Design 3 Mesh 2 Stress](A7_Design3_Mesh2_Stress.png..png)
 
 #### Bracket Mesh Convergence
 Mesh convergence was performed for all three bracket designs to verify the accuracy of the FEA results. Each design was initially tested with a coarser mesh and then refined by increasing the number of elements. The maximum stress, displacement, and safety factor were compared between the two meshes using the required 7% difference.
@@ -46,11 +72,32 @@ For the linkage FEA, the inside surface of the 1.00 in hole was fixed, while a 6
 #### Design I – Original Linkage
 For Design I, I used the original linkage from A5 with a thickness of 0.250 in. The initial mess contained 9,130 elements and was refined to 19,216 elements. The final maximum stress was 26.30 mpa, maximum displacement was 0.009267mm and a minimum safety factor was 10.4549. All three results converged within 7%, and the linkage had a mass of 0.1046 lb. These results were used as the starting point for the next 2 designs. 
 
+![Link Design 1 Mesh 1 Displacement](A7_Link_Design1_Mesh1_Displacement.png)
+![Link Design 1 Mesh 1 Safety Factor](A7_Link_Design1_Mesh1_SafetyFactor.png)
+![Link Design 1 Mesh 1 Stress](A7_Link_Design1_Mesh1_Stress.png)
+![Link Design 1 Mesh 2 Displacement](A7_Link_Design1_Mesh2_Displacement.png)
+![Link Design 1 Mesh 2 Safety Factor](A7_Link_Design1_Mesh2_SafetyFactor.png)
+![Link Design 1 Mesh 2 Stress](A7_Link_Design1_Mesh2_Stress.png)
+
 #### Design II – Reduced Thickness
 For Design II, I reduced the linkage thickness from 0.250in to 0.225in to decrease the weight. The first mesh contained 5,898 elements and was refined to 13,694 elements. The final maximum stress was 29.61 mpa, maximum displacement was 0.01029mm and the minimum safety factor was 9.2874. All three results converged within 7%. The mass decreased t 0.0942 lb, showing that reducing the thickness lowered the weight while maintaining a safety factor above 4. 
 
+![Link Design 2 Mesh 1 Displacement](A7_Link_Design2_Mesh1_Displacement.png)
+![Link Design 2 Mesh 1 Safety Factor](A7_Link_Design2_Mesh1_SafetyFactor.png)
+![Link Design 2 Mesh 1 Stress](A7_Link_Design2_Mesh1_Stress.png)
+![Link Design 2 Mesh 2 Displacement](A7_Link_Design2_Mesh2_Displacement.png)
+![Link Design 2 Mesh 2 Safety Factor](A7_Link_Design2_Mesh2_SafetyFactor.png)
+![Link Design 2 Mesh 2 Stress](A7_Link_Design2_Mesh2_Stress.png)
+
 #### Design III – Final Thickness Reduction
 For Design III, I further reduced the linkage thickness from 0.225inn to 0.200in. The initial mesh contained 6,334 elements and was refined to 14,576 elements. The final maximum stress was 33.14 mpa, maximum displacement was 0.01156mm, and the minimum safety factor was 8.29933. All 3 results converged within 7%. The final mass was 0.0837 lb, which is approximately 20% than Design I. Although stress and displacement increased, the linkage maintained a safety factor above 4.
+
+![Link Design 3 Mesh 1 Displacement](A7_Link_Design3_Mesh1_Displacement.png)
+![Link Design 3 Mesh 1 Safety Factor](A7_Link_Design3_Mesh1_SafetyFactor.png)
+![Link Design 3 Mesh 1 Stress](A7_Link_Design3_Mesh1_Stress.png)
+![Link Design 3 Mesh 2 Displacement](A7_Link_Design3_Mesh2_Displacement.png)
+![Link Design 3 Mesh 2 Safety Factor](A7_Link_Design3_Mesh2_SafetyFactor.png)
+![Link Design 3 Mesh 2 Stress](A7_Link_Design3_Mesh2_Stress.png)
 
 #### Linkage Mesh Convergence
 Mesh convergence was performed for all three linkage designs by comparing the results from the initial and refined meshes. Design I had differences of 0.23% for stress, 0.09% for displacement, and 0.24% for safety factor. Design II had differences of 2.53%, 0.10%, and 2.60%, while Design III had differences of 2.35%, 0.09%, and 2.42%. All three designs converged within the required 7% after two meshes. The results from the finer meshes were used for the final design comparison.
