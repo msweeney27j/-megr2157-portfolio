@@ -13,6 +13,8 @@ Both the linkage and bracket were analyzed in SolidWorks using a static simulati
 
 ### Bracket FEA – MEGR 2156
 
+![Full Bracket Mesh Table](FullBracket_Mesh_table.png)
+
 #### Design I – Original Bracket
 For Design I, I used the original bracket from A6 without making any changes to the geometry. The first simulation used to mesh with 8,355 elements, which was then refined to 13,822 elements. The maximum stress increased from 38.35 mpa to 40.14 mpa, while the maximum displacement increased slightly from 0.01056 to 0.01058 mm. The minimum safety factor decreased from 7.17003 to 6.85086. All three results converged within the required 7% so a third mesh was not needed.
 
@@ -60,6 +62,8 @@ Mesh convergence was performed for all three bracket designs to verify the accur
 For Design I, the stress, displacement, and safety factor differences were 4.46%, 0.19%, and 4.66%. Design II had differences of 0.74%, 0.09%, and 0.75%, while Design III had differences of 6.50%, 0.19%, and 6.09%. All three designs met the convergence requirement after two meshes, so no third mesh was necessary. The results from the finer mesh were used for the final design comparisons. 
 
 ### MEGR 2157 Students Only (30%) – Finite Element Method: Linkage
+
+![Link Mesh Table](link_Mesh_Table.png)
 
 #### Linkage Design Requirements
 For the MEGR 2157 portion of A7, the same FEA process was repeated for the linkage designed in A5. The original linkage had a width of 2in, a thickness of 0.250 in, and a center-to-center hole distance of 1.25. The two holes had diameters of 0.848 in and 1.00 in. Aluminum 6061-T6 was used as the material with an applied load of 600 lbf and a required safety factor of 4.
@@ -112,6 +116,9 @@ The results from all three linkage designs were compared to determine how reduci
 
 ### Final Design Selection
 Based on the FEA results, I selected Design I for the bracket because it had the lowest maximum stress and highest safety factor. Although Designs II and III reduced the mass slightly the reduction was only 0.0009 lb and came with higher stress. For the linkage, I selected Design III because it reduced the mass by approximately 20% while maintaining a safety factor of 8.29833. The maximum displacement also remained below the allowable limit from A5. These results showed that the best design depends on balancing strength, stiffness, and weight rather than focusing on only one factor. 
+
+![A7 Final Table](A7_final_table.png)
+
 ## Communicate
 
 ### Lessons Learned
