@@ -132,6 +132,16 @@ Overall, I spent 7.5 hours completing this assignment with most of the time spen
 
 ### CAD Files
 
+#### Bracket CAD Files
+- [Design I – Original Bracket](A6part1.SLDPRT)
+- [Design II – Filleted Bracket](A7Design2.SLDPRT)
+- [Design III – Modified Fillets](A7part1.SLDPRT)
+
+#### Linkage CAD Files
+- [Design I – Original Linkage](A7link.SLDPRT)
+- [Design II – Reduced Thickness](A7link_DesignII.SLDPRT)
+- [Design III – Final Thickness Reduction](A7link_DesignIII.SLDPRT)
+
 ### AI Use
 Prompt: What geometric changes can be made to a mechanical bracket to increase its strength and reduce stress concentrations?
 
