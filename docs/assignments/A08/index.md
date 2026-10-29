@@ -8,15 +8,15 @@ The objective of this assignment was to design a gearbox that could be assembled
 ### MEGR 2156 – Gearbox Design
 
 #### Design Requirements
-The gearbox was designed using a gear rato of 24:9, with an output torque of 1.25 in-lbf and an output speed of 1100 rpm. The input shaft diameter was given as 0.125 inches and the output shaft diameter was 0.250 inches, with both shafts having a length of 1 inch. The gear train was assumed to be ideal, and the bending moment caused by the radial gear force was considered small enough to ignore during shaft analysis.
+The gearbox was designed using a gear ratio of 24:9, with an output torque of 1.25 in-lbf and an output speed of 1100 rpm. The input shaft diameter was given as 0.125 inches and the output shaft diameter was 0.250 inches, with both shafts having a length of 1 inch. The gear train was assumed to be ideal, and the bending moment caused by the radial gear force was considered small enough to ignore during shaft analysis.
 
 The gearbox also needed journal bearings to support both shafts and a two-piece housing that could be assembles and disassembled. The housing needed enough clearance for the gears to rotate without contacting the walls. Critical features were modeled parametrically in SolidWorks, and the final design required engineering drawings with appropriate dimensions and tolerances.
 
 #### Input Shaft Analysis
 ##### Knowns, Unknowns, and FBD
-The input shaft was analyzed to determine if the given diameter of 0.125 inches was sifficent to withstand the applied torque. The known values included the output torque of 1.25 in-lbf, gear ratio of 24:9, and shaft length of 1 inch. The unknowns included the input torque, maximum torsional shear stress, and whether the shaft diameter was sufficient.
+The input shaft was analyzed to determine if the given diameter of 0.125 inches was sufficient to withstand the applied torque. The known values included the output torque of 1.25 in-lbf, gear ratio of 24:9, and shaft length of 1 inch. The unknowns included the input torque, maximum torsional shear stress, and whether the shaft diameter was sufficient.
 
-A free body diagram was created showing the input torque and the opposing torque transmitted through the pinion gear.The shaft was analyzed under pure torsion because the assignment allowed the bending moment from the radial gear force to be neglected.
+A free body diagram was created showing the input torque and the opposing torque transmitted through the pinion gear. The shaft was analyzed under pure torsion because the assignment allowed the bending moment from the radial gear force to be neglected.
 
 ![Input Shaft FBD](IMG_2634.jpeg)
 
@@ -75,7 +75,7 @@ A free body diagram was created showing the radial force applied by the shaft an
 ##### Algebraic and Numerical Analysis
 The journal bearing thickness was determined using the dimensional guidelines for copper-base sintered bearings from Machinery's Handbook, page 2445, Table 5b. The handbook specifies a maximum length-to-wall-thickness ratio of 24:1. Using the selected bearing length of 0.250 inches, the minimum wall thickness based on this ratio was calculated to be 0.01042 inches.
 
-The final selected wall thickness was 0.03125 inches for both bearings. This resulted in an outside diameter of 0.1875 inches for the input bearing and 0.3125 inches for the output bearing. Both bearings had a length-to-wall-thickness ratio of 8:1, which satisfied the handbook's 24:1 dimensional limit. These values were used for the bearing selection and SolidWorks models.
+The final selected wall thickness was 0.03125 inches for both bearings. This resulted in an outside diameter of 0.1875 inches for the input bearing and 0.3125 inches for the output bearing. Both bearings had a length-to-wall-thickness ratio of 8:1, which satisfied the handbook's 24:1-dimensional limit. These values were used for the bearing selection and SolidWorks models.
 
 ![Journal Bearing Thickness Calculations](IMG_2643.jpeg)
 
@@ -85,7 +85,7 @@ Two oil-embedded SAE 841 bronze sleeve bearings were selected from McMaster-Carr
 Both bearings have a wall thickness of 0.03125 inches, which satisfies the dimensional guidelines from Machinery's Handbook. These bearings were selected because they fit the shaft dimensions and met the calculated pressure, velocity, and PV requirements.
 
 #### Gearbox Housing Design
-The gearbox housing was designed as two separate halves that could be assembled and disassmebled. I decided to use a rounded housing profile that followed the general shape of the two gears instead of a rectangular box. The larger circualr section was designed around the output gear, while the smaller section surrounded the input pinion. The center distance between the two sections was set to 0.6875 inches to match the gear spacing.The housing was designed with an internal cavity to provide clearance around the gears. Holes were added for the journal bearings to support the shafts while allowing them to extend outside the housing. The two housing halves were designed to fit together around the gears, keeping the overall gearbox compact while allowing it to be taken apart.
+The gearbox housing was designed as two separate halves that could be assembled and disassembled. I decided to use a rounded housing profile that followed the general shape of the two gears instead of a rectangular box. The larger circular section was designed around the output gear, while the smaller section surrounded the input pinion. The center distance between the two sections was set to 0.6875 inches to match the gear spacing. The housing was designed with an internal cavity to provide clearance around the gears. Holes were added for the journal bearings to support the shafts while allowing them to extend outside the housing. The two housing halves were designed to fit together around the gears, keeping the overall gearbox compact while allowing it to be taken apart.
 
 Both housing halves were created using the same SolidWorks part. Since the two sides have identical geometry, I inserted the housing twice into the assembly and rotated one half 180 degrees so the cavities faced each other. This allowed both sides to fit together without needing to model two separate housing parts.
 
