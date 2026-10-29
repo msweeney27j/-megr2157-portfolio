@@ -164,30 +164,30 @@ These are preliminary design guidelines, not universal minimum requirements
 ### CAD Files and Drawings
 
 #### Input Shaft
-- [Input Shaft – SolidWorks Part](A8/Input%20Shaft.SLDPRT)
-- [Input Shaft – Engineering Drawing](A8/Input%20Shaft.SLDDRW)
+- [Input Shaft – SolidWorks Part](<Input Shaft.SLDPRT>)
+- [Input Shaft – Engineering Drawing](<Input Shaft.SLDDRW>)
 
 #### Output Shaft
-- [Output Shaft – SolidWorks Part](A8/Output%20Shaft.SLDPRT)
-- [Output Shaft – Engineering Drawing](A8/Output%20Shaft.SLDDRW)
+- [Output Shaft – SolidWorks Part](<Output Shaft.SLDPRT>)
+- [Output Shaft – Engineering Drawing](<Output Shaft.SLDDRW>)
 
 #### Input Journal Bearing
-- [Input Bearing – SolidWorks Part](A8/Input%20Bearing.SLDPRT)
-- [Input Bearing – Engineering Drawing](A8/Input%20Bearing.SLDDRW)
+- [Input Bearing – SolidWorks Part](<Input Bearing.SLDPRT>)
+- [Input Bearing – Engineering Drawing](<Input Bearing.SLDDRW>)
 
 #### Output Journal Bearing
-- [Output Bearing – SolidWorks Part](A8/Output%20Bearing.SLDPRT)
-- [Output Bearing – Engineering Drawing](A8/Output%20Bearing.SLDDRW)
+- [Output Bearing – SolidWorks Part](<Output Bearing.SLDPRT>)
+- [Output Bearing – Engineering Drawing](<Output Bearing.SLDDRW>)
 
 #### Spur Gears
-- [Pinion Gear – SolidWorks Part](A8/Pinion%20Gear.SLDPRT)
-- [Output Gear – SolidWorks Part](A8/Output%20Gear.SLDPRT)
+- [Pinion Gear – SolidWorks Part](<Pinion Gear.SLDPRT>)
+- [Output Gear – SolidWorks Part](<Output Gear.SLDPRT>)
 
 #### Gearbox Housing
-- [Housing – SolidWorks Part](A8/outside%20housing.SLDPRT)
-- [Left Housing – Engineering Drawing](A8/outside%20housing%20Left.SLDDRW)
-- [Right Housing – Engineering Drawing](A8/outside%20housing%20Right.SLDDRW)
+- [Housing – SolidWorks Part](<outside housing.SLDPRT>)
+- [Left Housing – Engineering Drawing](<outside housing Left.SLDDRW>)
+- [Right Housing – Engineering Drawing](<outside housing Right.SLDDRW>)
 
 #### Gearbox Assembly
-- [Complete Gearbox – SolidWorks Assembly](A8/Assembly.SLDASM)
-- [Complete Gearbox – Engineering Drawing](A8/Assembly.SLDDRW)
+- [Complete Gearbox – SolidWorks Assembly](<Assembly.SLDASM>)
+- [Complete Gearbox – Engineering Drawing](<Assembly.SLDDRW>)
