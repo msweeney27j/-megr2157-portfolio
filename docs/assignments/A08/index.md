@@ -18,10 +18,14 @@ The input shaft was analyzed to determine if the given diameter of 0.125 inches 
 
 A free body diagram was created showing the input torque and the opposing torque transmitted through the pinion gear.The shaft was analyzed under pure torsion because the assignment allowed the bending moment from the radial gear force to be neglected.
 
+![Input Shaft FBD](IMG_2634.jpeg)
+
 ##### Algebraic and Numerical Analysis
 The input shaft torque was calculated using the given output torque and gear ratio, resulting in 0.46875 in-lbf. The maximum torsional shear stress was then calculated using the equation for a solid circular shaft, resulting in 1,222.3 psi. Using Machinery's Handbook, page 295, Table 2, the allowable shear stress for commercial steel shafting without keyways was determined to be 8,000 psi.
 
 The calculated stress was below the allowable stress, giving a stress ratio of 6.54 relative to the handbook allowable. Based on these results, the original 0.125-inch input shaft diameter was determined to be sufficient, and no changes were needed.
+
+![Input Shaft Calculations](IMG_2635.jpeg)
 
 #### Output Shaft Analysis
 ##### Knowns, Unknowns, and FBD
@@ -29,10 +33,14 @@ The output shaft was analyzed to determine if the given diameter of 0.250 inches
 
 A free body diagram was created showing the torque applied by the output gear and the opposing torque from the load. Like the input shaft, the output shaft was analyzed under pure torsion, with the bending moment from the radial gear force neglected.
 
+![Output Shaft FBD](IMG_2636.jpeg)
+
 ##### Algebraic and Numerical Analysis
 The output shaft was analyzed using the torsional shear stress equation for a solid circular shaft. Using the output torque of 1.25 in-lbf and shaft diameter of 0.250 inches, the maximum torsional shear stress was calculated to be 407.44 psi. According to Machinery's Handbook, page 295, Table 2, the allowable shear stress for commercial steel shafting without keyways was 8,000 psi.
 
 The calculated stress was below the allowable stress, giving a stress ratio of 19.63 relative to the handbook allowable. Therefore, the original 0.250-inch output shaft diameter was sufficient, and no modifications were needed.
+
+![Output Shaft Calculations](IMG_2637.jpeg)
 
 #### Journal Bearing Design
 ##### Knowns, Unknowns, and FBD
@@ -40,10 +48,16 @@ The journal bearings were designed to support the input and output shafts while 
 
 A free body diagram was created showing the radial force applied to the bearing and the opposing reaction from the housing. The radial force was determined using the gear force equations provided in the lecture.
 
+![Journal Bearing FBD](IMG_2638.jpeg)
+
 ##### Algebraic and Numerical Analysis
 The journal bearing calculations were completed using the gear force equations from the lecture. The tangential gear force was calculated to be 2.50 lbf, and using a 20-degree pressure angle, the radial force was determined to be 0.910 lbf. This radial force was used to calculate the bearing pressure for both shafts.
 
 Using the selected bearing length of 0.250 inches, the input bearing pressure was calculated to be 29.12 psi, with a surface velocity of 95.99 ft/min and a PV rating of 2,795 psi-ft/min. The output bearing pressure was 14.56 psi, with a surface velocity of 71.99 ft/min and a PV rating of 1,048 psi-ft/min. These values were used to determine whether the selected bearing material would be sufficient.
+
+![Journal Bearing Calculations 1](IMG_2639.jpeg)
+![Journal Bearing Calculations 2](IMG_2640.jpeg)
+![Journal Bearing Calculations 3](IMG_2641.jpeg)
 
 ##### Bearing Material Selection
 Porous bronze was selected as the material for both journal bearings using the material table provided in the Gearbox lecture and Machinery's Handbook. The material has a maximum allowable pressure of 4,500 psi, a maximum surface velocity of 1,500 ft/min, and a maximum PV rating of 50,000 psi-ft/min.
@@ -56,10 +70,14 @@ The journal bearing wall thickness was analyzed to determine appropriate dimensi
 
 A free body diagram was created showing the radial force applied by the shaft and the opposing reaction from the gearbox housing. The bearing wall thickness was evaluated using the dimensional guidelines for copper-base sintered bearings from Machinery's Handbook, page 2445, Table 5b. This provided a preliminary thickness requirement, although it did not directly determine the stresses within the bearing wall.
 
+![Journal Bearing Thickness FBD](IMG_2642.jpeg)
+
 ##### Algebraic and Numerical Analysis
 The journal bearing thickness was determined using the dimensional guidelines for copper-base sintered bearings from Machinery's Handbook, page 2445, Table 5b. The handbook specifies a maximum length-to-wall-thickness ratio of 24:1. Using the selected bearing length of 0.250 inches, the minimum wall thickness based on this ratio was calculated to be 0.01042 inches.
 
 The final selected wall thickness was 0.03125 inches for both bearings. This resulted in an outside diameter of 0.1875 inches for the input bearing and 0.3125 inches for the output bearing. Both bearings had a length-to-wall-thickness ratio of 8:1, which satisfied the handbook's 24:1 dimensional limit. These values were used for the bearing selection and SolidWorks models.
+
+![Journal Bearing Thickness Calculations](IMG_2643.jpeg)
 
 #### McMaster-Carr Bearing Selection
 Two oil-embedded SAE 841 bronze sleeve bearings were selected from McMaster-Carr for the input and output shafts. The input bearing selected was part 6391K753, with an inside diameter of 0.125 inches, outside diameter of 0.1875 inches, and length of 0.250 inches. The output bearing selected was part 6391K126, with an inside diameter of 0.250 inches, outside diameter of 0.3125 inches, and length of 0.250 inches.
