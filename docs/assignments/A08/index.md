@@ -99,6 +99,12 @@ The gearbox assembly was completed in SolidWorks using the two shafts, spur gear
 
 During the assembly process, I had to adjust several mates to get the gears and shafts positioned correctly. I also used interference detection to check the gear teeth and adjusted their positions to reduce interference. Once the components were aligned, the housing halves were added to enclose the gears while allowing the shafts to extend outside the housing. The final assembly showed how the components fit together and allowed the gearbox housing to be separated for disassembly.
 
+![Completed Gearbox Assembly](Assemblyphoto.png)
+
+![Exploded View of Gearbox Assembly](Assemblyexpandedphoto.png)
+
+The exploded view shows how the two housing halves separate to provide access to the gears and shafts. Both housing halves were made using the same SolidWorks part, with one rotated 180 degrees during assembly. This design allows the gearbox to be disassembled without needing two different housing models.
+
 ### MEGR 2157 – Engineering Drawings
 
 #### Input Shaft Drawing
@@ -144,7 +150,16 @@ The housing design also took some trial and error. I originally considered a rec
 Overall I spent 8 hours working on this project with most of the time being spent in SolidWorks.
 ### AI Usage
 
-### CAD Files and Drawings
+Prompt: How much clearance is typically needed between rotating gears and the inside walls of a gearbox housing?
+
+Chatgpt: For a typical small mechanical gearbox, a practical starting point is 0.0625–0.125 inches (1/16–1/8 in.) of clearance between the rotating gears and the inside walls of the housing.
+Clearance location	Recommended starting clearance
+Radial (gear teeth to surrounding housing wall)	0.125 in. (3.18 mm)
+Axial (gear face to housing side wall)	0.0625 in. (1.59 mm)
+Extra room for larger or higher-load gearboxes	0.200–0.315 in. (5–8 mm) radially
+These are preliminary design guidelines, not universal minimum requirements
+- Check bearing movement, shaft deflection, manufacturing tolerances, and thermal expansion to ensure the gears cannot contact the housing during operation.
+
 
 ### CAD Files and Drawings
 
