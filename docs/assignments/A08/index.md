@@ -69,6 +69,8 @@ Both bearings have a wall thickness of 0.03125 inches, which satisfies the dimen
 #### Gearbox Housing Design
 The gearbox housing was designed as two separate halves that could be assembled and disassmebled. I decided to use a rounded housing profile that followed the general shape of the two gears instead of a rectangular box. The larger circualr section was designed around the output gear, while the smaller section surrounded the input pinion. The center distance between the two sections was set to 0.6875 inches to match the gear spacing.The housing was designed with an internal cavity to provide clearance around the gears. Holes were added for the journal bearings to support the shafts while allowing them to extend outside the housing. The two housing halves were designed to fit together around the gears, keeping the overall gearbox compact while allowing it to be taken apart.
 
+Both housing halves were created using the same SolidWorks part. Since the two sides have identical geometry, I inserted the housing twice into the assembly and rotated one half 180 degrees so the cavities faced each other. This allowed both sides to fit together without needing to model two separate housing parts.
+
 #### Parametric SolidWorks Modeling
 The gearbox components were modeled in SolidWorks using the dimensions determined during the design process. The input and output shafts were created using global variables to control their diameters and lengths, allowing the dimensions to be changed without rebuilding the parts. The gears and journal bearings were downloaded from McMaster-Carr and incorporated into the model.
 
@@ -125,3 +127,34 @@ Overall I spent 8 hours working on this project with most of the time being spen
 ### AI Usage
 
 ### CAD Files and Drawings
+
+### CAD Files and Drawings
+
+#### Input Shaft
+- [Input Shaft – SolidWorks Part](A8/Input%20Shaft.SLDPRT)
+- [Input Shaft – Engineering Drawing](A8/Input%20Shaft.SLDDRW)
+
+#### Output Shaft
+- [Output Shaft – SolidWorks Part](A8/Output%20Shaft.SLDPRT)
+- [Output Shaft – Engineering Drawing](A8/Output%20Shaft.SLDDRW)
+
+#### Input Journal Bearing
+- [Input Bearing – SolidWorks Part](A8/Input%20Bearing.SLDPRT)
+- [Input Bearing – Engineering Drawing](A8/Input%20Bearing.SLDDRW)
+
+#### Output Journal Bearing
+- [Output Bearing – SolidWorks Part](A8/Output%20Bearing.SLDPRT)
+- [Output Bearing – Engineering Drawing](A8/Output%20Bearing.SLDDRW)
+
+#### Spur Gears
+- [Pinion Gear – SolidWorks Part](A8/Pinion%20Gear.SLDPRT)
+- [Output Gear – SolidWorks Part](A8/Output%20Gear.SLDPRT)
+
+#### Gearbox Housing
+- [Housing – SolidWorks Part](A8/outside%20housing.SLDPRT)
+- [Left Housing – Engineering Drawing](A8/outside%20housing%20Left.SLDDRW)
+- [Right Housing – Engineering Drawing](A8/outside%20housing%20Right.SLDDRW)
+
+#### Gearbox Assembly
+- [Complete Gearbox – SolidWorks Assembly](A8/Assembly.SLDASM)
+- [Complete Gearbox – Engineering Drawing](A8/Assembly.SLDDRW)
