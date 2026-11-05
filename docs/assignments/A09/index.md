@@ -73,6 +73,11 @@ One challenge during the design was determining the correct belt circumference, 
 ### Time Spent
 It took me right around 6 hours to complete this assignment. 
 
+### References
+
+- Machinery's Handbook, 32nd Edition, Table 4, p. 2442 – Application Limits for Sintered Metal and Nonmetallic Bearings.
+- McMaster-Carr – Polyurethane Round Belt, Part #9462T58.
+
 ### AI Prompts
 prompt: Why is the PV rating important 
 
